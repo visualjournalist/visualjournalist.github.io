@@ -1,9 +1,86 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<article class="post voa__grid__full" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="post">
-  {{ content }}
+  <header class="post-header voa__grid">
+    <!--<h3 class="voa__kicker" style="background-color: orange;">{{ page.categories | first }}</h3>
+    <h1 class="post-title" itemprop="name headline" style="margin-bottom: 20px;">{{ page.title | escape }}</h1>
+   <!--<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>-->
+  </header>
+
+  {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
+    {% if page.image %}<img alt="dogs" src="{{ site.url }}/img/{{ page.image }}" />{% endif %}
+  {% if page.image and page.link-project %}</a>{% endif %}
+
+  <div class="post-content voa__grid" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+<!--
+ {{ page.categories | first }}
+
+<ul>
+    {% for category in page.categories %}
+        <li>
+                {{ category }}
+        </li>
+    {% endfor %} 
+</ul>
+
+-->
+
+{% if page.link-project or page.link-code or page.link-blogpost or page.link-video %}
+<div class="voa__grid">
+ <ul>
+  {% if page.link-project %}<li><a href="{{ page.link-project }}">View the project</a></li>{% endif %}
+  {% if page.link-code %}<li><a href="{{ page.link-code }}">View the code</a></li>{% endif %}
+  {% if page.link-blogpost %}<li><a href="{{ page.link-blogpost }}">Read a blogpost</a></li>{% endif %}
+  {% if page.link-video %}<li><a href="{{ page.link-video }}">Watch a video</a></li>{% endif %}
+  </ul>
 </div>
+{% endif %}
+
+
+
+<div class="voa__grid__full">
+        <div class="voa__grid">
+            
+        <div class="voa__grid__one-third">
+          <a href="#">
+            <img src="http://placehold.it/360x240" class="rectangleImg" data-pin-nopin="true">
+            <div class="description">
+              <h2 class="headline"><span class="illustration">illustration: </span>Choosing the power of the pen</h2>
+            </div>
+          </a>
+        </div>
+      
+      
+        <div class="voa__grid__one-third">
+          <a href="#">
+            <img src="http://placehold.it/360x240" class="rectangleImg" data-pin-nopin="true">
+            <div class="description">
+              <h2 class="headline"><span class="illustration">illustration: </span>Choosing the power of the pen</h2>
+            </div>
+          </a>
+        </div>
+      
+
+        <div class="voa__grid__one-third">
+          <a href="#">
+            <img src="http://placehold.it/360x240" class="rectangleImg" data-pin-nopin="true">
+            <div class="description">
+              <h2 class="headline"><span class="illustration">illustration: </span>Choosing the power of the pen</h2>
+            </div>
+          </a>
+        </div>
+      
+      
+  
+        </div>
+      </div>
+
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
+</article>

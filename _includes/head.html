@@ -1,0 +1,35 @@
+<head>
+
+	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+	<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  	<meta name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'/>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/retina_icon.png">
+
+	<!-- for Google -->
+	<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+	<meta name="keywords" content="visual journalism, illustration, animation, data visualization, video, front-end development, JavaScript, HTML" />
+	<meta name="author" content="Brian Williamson" />
+
+	<!-- for Facebook -->
+	<meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
+	<meta property="og:type" content="website" />
+	<!--
+	<meta property="og:image" content="http://visualjournali.st/images/circumvention.jpg" />
+	-->
+	<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
+	<meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
+
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+	{% if jekyll.environment == 'production' and site.google_analytics %}
+	{% include google-analytics.html %}
+	{% endif %}
+
+</head>
