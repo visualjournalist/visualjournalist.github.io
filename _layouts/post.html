@@ -2,14 +2,22 @@
 layout: default
 ---
 <article class="post voa__grid__full" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header voa__grid">
+<section class="voa__section__full-width">
+  <div class="voa__grid__full">
+    <div class="voa__grid">
+      
+  <header class="post-header" style="padding-top: 60px;">
     <!--<h3 class="voa__kicker" style="background-color: orange;">{{ page.categories | first }}</h3>
     <h1 class="post-title" itemprop="name headline" style="margin-bottom: 20px;">{{ page.title | escape }}</h1>
    <!--<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>-->
+    <h1 class="voa__title">{{ page.title }}</h1>
+
   </header>
 
-<h1>{{ page.title }}</h1>
+    </div>
+  </div>
+</div>
+</section>
 
   {% if page.youtube %}
           <div class='embed-container'><iframe src="http://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe></div>
@@ -19,10 +27,13 @@ layout: default
   {% if page.image and page.link-project %}</a>{% endif %}
 {% endif %}
 
+<div class="voa__grid__full">
   <div class="post-content voa__grid" itemprop="articleBody">
-    {{ content }}
+    <div class="voa__story">
+      {{ content }}
+    </div>
   </div>
-
+</div>
 <!--
  {{ page.categories | first }}
 

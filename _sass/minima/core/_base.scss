@@ -21,17 +21,30 @@
 	h4,
 	h5 {
 		font-family: $font__sansDisplay;
+		font-weight: normal;
 		margin: 0;
 	}
 
 	strong{
-		font-family: $font__sansDisplay;
+		font-family: $font__sans;
 	}
 
-	.voa__story p{
+	.voa__story p,
+	.voa__story ul li{
 		font-family: $font__serif;
 		font-size: 120%;
 		line-height: 1.4;
+	}
+
+	.voa__story h1,
+	.voa__story h2,
+	.voa__story h3,
+	.voa__story h4,
+	.voa__story p,
+	.voa__story ul {
+		max-width: 640px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.voa__kicker,
@@ -81,9 +94,9 @@
 	}
 
 	.voa__section__full-width {
-		background-color: $color__voa-gray-lightest;
-		border-bottom: 1px solid $color__voa-gray-lighter; 
-		border-top: 1px solid $color__voa-gray-lightest;
+		//background-color: #FFF;//$color__voa-gray-lightest;
+		//border-bottom: 1px solid $color__voa-gray-lighter; 
+		//border-top: 1px solid $color__voa-gray-lightest;
 		padding: 0;
 		position: relative;
 		z-index: 9995; 
@@ -109,8 +122,8 @@
 
 		.voa__title {
 			@extend .voa__graphic__title--large;
-			color: #FFF;
-			text-shadow: 1px 1px 3px #333;
+			//color: #FFF;
+			//text-shadow: 1px 1px 3px #333;
 		}
 	}
 
