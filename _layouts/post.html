@@ -9,9 +9,15 @@ layout: default
    <!--<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>-->
   </header>
 
+<h1>{{ page.title }}</h1>
+
+  {% if page.youtube %}
+          <div class='embed-container'><iframe src="http://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe></div>
+{% elsif page.image %}
   {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
     {% if page.image %}<img alt="dogs" src="{{ site.url }}/img/{{ page.image }}" />{% endif %}
   {% if page.image and page.link-project %}</a>{% endif %}
+{% endif %}
 
   <div class="post-content voa__grid" itemprop="articleBody">
     {{ content }}

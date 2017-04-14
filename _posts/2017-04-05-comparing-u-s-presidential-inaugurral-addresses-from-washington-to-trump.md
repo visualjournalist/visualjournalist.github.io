@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Using responsive comics to explain internet circumvention techniques"
+date:   2017-03-05 07:10:18 -0500
+categories: design comics
+image: circumvention.jpg
+link-project:  "https://google.com"
+link-code:     "https://google.com"
+link-blogpost: "https://google.com"
+link-video:    "https://youtube.com"
+---
+
+**Hardline regimes around the world attempt to suppress internet access and spy on online users. To combat this trend, Voice of America decided to create a simple primer to help people evade online censors.**
+
+When we started the project we knew that we:
+
+* Wanted to create simple explanations of complex tools.
+* Needed to support multiple translations.
+* Could repurpose art across the explanations to illustrate recurring concepts.
+* I proposed that we create a series of simple responsive comic book introductions for each of the tools we were profiling. Unlike a large, static infographic explanation, comic book pages divided up into panels are ideal for reflowing onto different devices.
+
+### RESPONSIBILITIES
+
+I illustrated and designed the comics. I created a flexible CSS library to make the comics responsive. I also used TabletopJS and a Google spreadsheet to facilitate the translation of the comics across multiple languages. I then designed a simple responsive site to help users navigate between the tools. Finally, I helped repackage the project into an epub format to help share the information with other people unable to access the content online.
