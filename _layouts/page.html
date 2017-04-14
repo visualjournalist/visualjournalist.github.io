@@ -5,13 +5,15 @@ layout: default
 
 ---
 <article class="post">
+<div class="voa__grid__full">
+	<div class="voa__grid">
+	  <header class="post-header">
+	    <h1 class="post-title">{{ page.title | escape }}</h1>
+	  </header>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
-
+	  <div class="post-content">
+	    {{ content }}
+	  </div>
+	</div>
+</div>
 </article>
