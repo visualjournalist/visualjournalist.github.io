@@ -1,4 +1,4 @@
-.voa__project {
+.vj__project {
 	height: 100%;
 	line-height: 1.2;
 	max-width: 100%;
@@ -12,7 +12,7 @@
 	}
 
 	a {
-		color: $color__voa-blue;
+		color: $color__vj-blue;
 	}
 
 	h1,
@@ -29,27 +29,27 @@
 		font-family: $font__sans;
 	}
 
-	.voa__story p,
-	.voa__story ul li{
+	.vj__story p,
+	.vj__story ul li{
 		font-family: $font__serif;
 		font-size: 120%;
 		line-height: 1.4;
 	}
 
-	.voa__story h1,
-	.voa__story h2,
-	.voa__story h3,
-	.voa__story h4,
-	.voa__story p,
-	.voa__story ul {
+	.vj__story h1,
+	.vj__story h2,
+	.vj__story h3,
+	.vj__story h4,
+	.vj__story p,
+	.vj__story ul {
 		max-width: 640px;
 		margin-right: auto;
 		margin-left: auto;
 	}
 
-	.voa__kicker,
-	.voa__graphic__kicker {
-		background-color: $color__voa-red--dark;
+	.vj__kicker,
+	.vj__graphic__kicker {
+		background-color: $color__vj-red--dark;
 		color: #FFF;
 		display: inline-block;
 		font-size: 14px;
@@ -57,35 +57,35 @@
 		text-transform: uppercase;
 	}
 
-	.voa__label {
-		color: $color__voa-red--dark;
+	.vj__label {
+		color: $color__vj-red--dark;
 		margin-bottom: 20px;
 		text-transform: uppercase;
 
 		a {
-			color: $color__voa-red--dark;
+			color: $color__vj-red--dark;
 		}
 	}
 
-	.voa__byline {
+	.vj__byline {
 		font-family: $font__sans;
 		font-weight: bold;
 		margin-bottom: 20px;
 
-		.voa__agency {
+		.vj__agency {
 			font-weight: normal;
 		}
 	}
 
-	.voa__cutline {
-		color: $color__voa-gray-medium;
+	.vj__cutline {
+		color: $color__vj-gray-medium;
 		font-family: $font__sans;
 		font-size: 90%;
 		font-weight: bold;
 		margin: 5px 0 20px 0;
 	}
 
-	.voa__section {
+	.vj__section {
 		margin: 0 auto;
 		max-width: $max-width;
 		padding: 0;
@@ -93,58 +93,58 @@
 		z-index: 9995; 
 	}
 
-	.voa__section__full-width {
-		//background-color: #FFF;//$color__voa-gray-lightest;
-		//border-bottom: 1px solid $color__voa-gray-lighter; 
-		//border-top: 1px solid $color__voa-gray-lightest;
+	.vj__section__full-width {
+		//background-color: #FFF;//$color__vj-gray-lightest;
+		//border-bottom: 1px solid $color__vj-gray-lighter; 
+		//border-top: 1px solid $color__vj-gray-lightest;
 		padding: 0;
 		position: relative;
 		z-index: 9995; 
 
-		&.voa__section__title {
+		&.vj__section__title {
 			background-position: center 20%;
 			background-size: cover;
 			min-height: 80%;
 			position: relative;
 		}
 
-		.voa__title-card__shadow {
+		.vj__title-card__shadow {
 			background-image: linear-gradient(transparent 0%,#000 200%);
 			height: 30%;
 			position: absolute;
 				bottom: 0;
 			width: 100%;
 		}
-		.voa__title-card {
+		.vj__title-card {
 			position: absolute;
 				bottom: 5%;
 		}
 
-		.voa__title {
-			@extend .voa__graphic__title--large;
+		.vj__title {
+			@extend .vj__graphic__title--large;
 			//color: #FFF;
 			//text-shadow: 1px 1px 3px #333;
 		}
 	}
 
 
-	.voa__footer {
-		background-color: $color__voa-gray-lightest;
+	.vj__footer {
+		background-color: $color__vj-gray-lightest;
 		padding: 40px 0;
 		&.dark {
-			background-color: $color__voa-gray-dark;
-			color: $color__voa-gray-light;
+			background-color: $color__vj-gray-dark;
+			color: $color__vj-gray-light;
 
 			h3 {
 				color: #CCC;
 
-				&.voa__kicker {
+				&.vj__kicker {
 					color: #FFF;
 				}
 			}
 		}
 
-		.voa__grid__one-third {
+		.vj__grid__one-third {
 			margin-bottom: 40px;
 
 			@media only screen and (min-width: 640px) {
@@ -152,16 +152,16 @@
 			}
 		}
 
-		.voa__kicker {
+		.vj__kicker {
 			margin-bottom: 10px;
 		}
 	}
 
-	.voa__graphic__title--large {
+	.vj__graphic__title--large {
 		font-size: 2rem;
 		margin-bottom: 10px;
 	}
-	.voa__graphic__readin {
+	.vj__graphic__readin {
 		font-family: $font__serif;
 		font-size: 110%;
 		font-style: italic;
@@ -170,24 +170,24 @@
 		margin-top: 0;
 	}
 
-	.voa__graphic__title--section {
+	.vj__graphic__title--section {
 		font-size: 1.5rem;
 		margin: 0;
 	}
 
-	.voa__section__intro {
+	.vj__section__intro {
 		font-size: 16px;
 		margin-bottom: 10px;
 	}
 
-	.voa__mugshot {
+	.vj__mugshot {
 		float: left;
 		margin: 1em 15px 10px 0;
 		max-width: 33%;
 		width: 120px;
 	}
 
-	.voa__mugshot--round {
+	.vj__mugshot--round {
 		border-radius: 50%;
 		border: 1px solid #FFF;
 		margin: 2px 5px 2px 5%;
@@ -195,55 +195,55 @@
 		width: 40px;
 	}
 
-	.voa__photo--inset {
+	.vj__photo--inset {
 		margin-bottom: 10px;
 		width: 100%;
 	}
 
 
 	@media only screen and (min-width: $media__medium) {
-		.voa__graphic__title--large {
+		.vj__graphic__title--large {
 			font-size: 3rem;
 			margin-bottom: 20px;
 		}
 
-		.voa__graphic__readin {
+		.vj__graphic__readin {
 			font-size: 120%;
 			line-height: 1.7;
 			margin-bottom: 2rem;
 		}
 
-		.voa__section__intro {
+		.vj__section__intro {
 			font-size: 20px;
 			margin-bottom: 30px;
 		}
 	}
 
 	@media only screen and (min-width: $media__large) {
-		.voa__graphic__title--large {
+		.vj__graphic__title--large {
 			font-size: 4rem;
 		}
 
-		.voa__graphic__title--section {
+		.vj__graphic__title--section {
 			font-size: 3rem;
 		}
 
-		.voa__graphic__readin {
+		.vj__graphic__readin {
 			font-size: 140%;
 			line-height: 2;
 		}
 
-		.voa__graphic__intro {
+		.vj__graphic__intro {
 			display: none;
 		}
 
-		.voa__section__intro {
+		.vj__section__intro {
 			font-size: 24px;
 			line-height: 1.4;
 			margin-bottom: 30px;
 		}
 
-		.voa__mugshot--round {
+		.vj__mugshot--round {
 			border: 3px solid #FFF;
 			width: 60px;
 		}

@@ -5,4 +5,4 @@
 layout: home
 ---
 
-This is an experiment in using Jekyll and Github pages. There is currently a lot of lorem ipsum on this site. Please visit [visualjournali.st](http://visualjournali.st/) to see my current journalism portfolio or visit [my illustration portfolio](http://drawing-hands.com).
+This is an experiment in using Jekyll and Github pages. There is currently a lot of lorem ipsum on this site.

@@ -1,5 +1,5 @@
 /* Twitter styles */
-.voa__twitter {
+.vj__twitter {
 	margin: 0;
 
 	&.inset {
@@ -9,38 +9,38 @@
 		padding: 30px;
 
 		@media only screen and (min-width: $media__medium) {
-			.voa__twitter__attribution {
+			.vj__twitter__attribution {
 				margin: 10px auto;
 				max-width: 60%;
 			}
 		}
 	}
 
-	.voa__twitter__tweet {
+	.vj__twitter__tweet {
 		font-family: serif;
 		font-size: 170%;
 		line-height: 1.1;
 	}
 
-	.voa__twitter__tweet a {
-		color: $color__voa-blue;
+	.vj__twitter__tweet a {
+		color: $color__vj-blue;
 		text-decoration: none;
 	}
 
-	.voa__twitter__tweet a:hover {
+	.vj__twitter__tweet a:hover {
 		text-decoration: underline;
 	}
 
-	.voa__twitter__attribution {
+	.vj__twitter__attribution {
 		display: block;
 		margin-top: 20px;
 	}
 
-	.voa__twitter__attribution .voa__mugshot--circle {
+	.vj__twitter__attribution .vj__mugshot--circle {
 		margin-left: 0;
 	}
 
-	.voa__project .voa__twitter__timestamp {
+	.vj__project .vj__twitter__timestamp {
 		color: #999;
 		font-weight: normal;
 		margin-top: 5px;

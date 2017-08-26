@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Comparing 227 years of presidential demographics"
-date:   2017-02-05
+date:   2016-11-08
 categories: design interactive
 image: compare-presidents.jpg
 link-project:  "http://projects.voanews.com/presidential-demographics/"

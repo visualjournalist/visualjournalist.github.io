@@ -1,7 +1,7 @@
-/* add the language name to the same div as .voa__project */
+/* add the language name to the same div as .vj__project */
 
 @mixin language($translation) {
-	.voa__project {
+	.vj__project {
 		&.#{$translation} {
 			h1,
 			h2,
@@ -11,7 +11,7 @@
 				font-family: $font__display;
 			}
 
-			.voa__graphic__readin {
+			.vj__graphic__readin {
 				font-family: $font__secondary;
 			}
 
@@ -19,15 +19,15 @@
 				font-family: $font__primary;
 			}
 
-			.voa__story p {
+			.vj__story p {
 				font-family: $font__secondary;
 			}
 
-			.voa__byline {
+			.vj__byline {
 				font-family: $font__primary;
 			}
 
-			.voa__cutline {
+			.vj__cutline {
 				font-family: $font__primary;
 				font-weight: normal;
 			}

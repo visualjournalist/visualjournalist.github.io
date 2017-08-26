@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using responsive comics to explain internet circumvention techniques"
-date:   2017-03-05 07:10:18 -0500
+date:   2014-12-22 07:10:18 -0500
 categories: design comics
 image: circumvention.jpg
 link-project:  "https://google.com"

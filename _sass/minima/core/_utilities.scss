@@ -1,16 +1,16 @@
 // utility classes
 
-.voa__clear:before,
-.voa__clear:after {
+.vj__clear:before,
+.vj__clear:after {
 	content: " ";
 	display: table;
 }
 
-.voa__clear:after {
+.vj__clear:after {
 	clear: both;
 }
 
-.voa__rule {
+.vj__rule {
 	@media only screen and (min-width: 640px) {
 		&.wide-right {
 			border-right: $border__solid-light;
@@ -24,13 +24,13 @@
 }
 
 @media only screen and (max-width: media__medium) {
-	.voa__no-mobile {
+	.vj__no-mobile {
 		display: none;
 	}
 }
 
 @media only screen and (max-width: media__medium) , screen and (max-height: 475px) {
-	.voa__no-mobile {
+	.vj__no-mobile {
 		display: none;
 	}
 }
@@ -38,7 +38,7 @@
 
 
 @media only screen and (min-width: $media__medium-large) and (max-width: $media__large--) {
-	.voa__no-tablet {
+	.vj__no-tablet {
 		display: none;
 	}
 }
