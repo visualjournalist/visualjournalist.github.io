@@ -4,8 +4,8 @@ title:  "Using responsive comics to explain internet circumvention techniques"
 date:   2014-12-22 07:10:18 -0500
 categories: design comics
 image: circumvention.jpg
-link-project:  "https://google.com"
-link-code:     "https://google.com"
+link-project:  "https://projects.voanews.com/circumvention/"
+link-code:     "https://github.com/voanews/circumvention/"
 link-blogpost: "https://google.com"
 link-video:    "https://youtube.com"
 ---
