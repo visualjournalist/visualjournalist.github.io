@@ -1,5 +1,13 @@
 // Put project-specific CSS here.
 
+.vj__portfolio-grid {
+	&.vj__grid {
+		@media only screen and (max-width: $media__small) {
+			padding: 0;
+		}
+	}
+}
+
 .vj__portfolio-grid__item {
 	margin-bottom: 20px;
 
@@ -18,17 +26,20 @@
 
 	@media only screen and (max-width: $media__small) {
 		border-bottom: 1px solid #CCC;
+		display: inline-block;
+		margin-bottom: 1px;
 		min-height: 60px;
 
-		img {
-			float: left;
-			margin-right: 5px;
-			width: 120px;
-		}
 		h2 {
 			font-family: Arial, sans-serif;
 			font-size: 16px;
 			font-weight: bold;
+			padding-left: 125px;
+		}
+		img {
+			float: left;
+			margin-right: 5px;
+			width: 120px;
 		}
 	}
 
