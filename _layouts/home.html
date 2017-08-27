@@ -10,19 +10,24 @@ layout: default
     
     {{ content }}
 
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </div>
 
-          <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h2>
-        </li>
+   <div class="vj__grid vj__portfolio-grid">
+
+      {% for post in site.posts %}
+          <div class="vj__grid__one-third vj__portfolio-grid__item">
+            <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              <img src="https://placehold.it/100x50">
+              <!--<img src="/img/{{ post.image }}">-->
+              <h2>
+                {{ post.title | escape }}
+              </h2>
+            </a>
+          </div>
       {% endfor %}
-    </ul>
+    </div>
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  </div>
   </div>
 </div>
