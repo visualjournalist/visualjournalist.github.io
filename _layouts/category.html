@@ -6,15 +6,19 @@ layout: default
   <div class="vj__grid__full">
     <div class="vj__grid">
 
-    <h1 class="page-heading">Posts</h1>
+
+    <h3 class="vj__kicker" style="background-color: orange; margin-top: 50px;"> {{ page.title | escape }}</h3>
     
-    {{ content }}
+    {% unless page.content == '' %}
+      <p>{{ page.content }}</p>
+    {% endunless %}
 
     </div>
 
+
    <div class="vj__grid vj__portfolio-grid">
       <!--
-      {% for post in site.posts %}
+      {% for post in site.categories[page.category] %}
           --><div class="vj__grid__element vj__portfolio-grid__item">
             <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
             <a class="post-link" href="{{ post.url | relative_url }}">
@@ -27,10 +31,6 @@ layout: default
           </div><!--
       {% endfor %}
       -->
-    </div>
-
-    <div class="vj__grid">
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
     </div>
   </div>
 </div>

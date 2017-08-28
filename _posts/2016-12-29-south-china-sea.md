@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The South China Sea: Conflict and diplomacy on the high seas"
-date:   2016-12-29
+date: 2016-12-29
 categories: design interactive
 image: 2016-12-29__south-china-sea.jpg
 link-project:  "https://projects.voanews.com/south-china-sea/"

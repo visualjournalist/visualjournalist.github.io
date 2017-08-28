@@ -10,7 +10,7 @@ layout: default
     <!--<h3 class="vj__kicker" style="background-color: orange;">{{ page.categories | first }}</h3>
     <h1 class="post-title" itemprop="name headline" style="margin-bottom: 20px;">{{ page.title | escape }}</h1>
    <!--<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>-->
-    <h3 class="vj__kicker" style="background-color: orange;">{{ page.categories.last }}</h1>
+    <h3 class="vj__kicker" style="background-color: orange;"><a href="/{{ page.categories.last }}/">{{ page.categories.last }}</a></h3>
     <h3 class="" style="float: right; color: #CCC; font-weight: normal;">{{ page.date | date: "%B %-d, %Y" }}</h3>
 
 
@@ -52,8 +52,8 @@ layout: default
 -->
 
 {% if page.link-project or page.link-code or page.link-blogpost or page.link-video %}
-<div class="vj__grid">
- <ul>
+<div class="vj__grid vj__related-links">
+ <ul class="">
   {% if page.link-project %}<li><a href="{{ page.link-project }}">View the project</a></li>{% endif %}
   {% if page.link-code %}<li><a href="{{ page.link-code }}">View the code</a></li>{% endif %}
   {% if page.link-blogpost %}<li><a href="{{ page.link-blogpost }}">Read a blogpost</a></li>{% endif %}
