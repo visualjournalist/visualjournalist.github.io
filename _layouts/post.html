@@ -64,9 +64,30 @@ layout: default
 
 
 
-<div class="vj__grid__full">
+<div class="vj__grid__full" style="margin-top: 40px;">
         <div class="vj__grid">
-            
+
+{% for post in site.posts limit:4 %}
+  {% if post.url != page.url %} 
+    {% if forloop.index < 4 or found %}
+
+        <div class="vj__grid__one-third">
+          <a href="{{ post.url }}">
+            <img src="http://placehold.it/360x240" class="rectangleImg" data-pin-nopin="true">
+            <div class="description">
+              <h2 class="headline">{{ post.title }}</h2>
+            </div>
+          </a>
+        </div>
+
+
+    {% endif %}
+  {% else %}
+    {% assign found = true %} 
+  {% endif %}
+{% endfor %}
+
+<!--
         <div class="vj__grid__one-third">
           <a href="#">
             <img src="http://placehold.it/360x240" class="rectangleImg" data-pin-nopin="true">
@@ -96,7 +117,7 @@ layout: default
           </a>
         </div>
       
-      
+-->
   
         </div>
       </div>
