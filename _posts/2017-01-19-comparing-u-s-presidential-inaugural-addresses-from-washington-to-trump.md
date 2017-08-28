@@ -4,6 +4,7 @@ title:  "Comparing U.S. presidential inaugurral addresses from Washington to Tru
 date:   2017-01-19
 categories: design interactive
 image: inaugural-address.jpg
+thumbnail: inaugural-address--640x360.jpg
 link-project:  "https://projects.voanews.com/inaugural-comparison/"
 ---
 

@@ -4,6 +4,7 @@ title:  "Africa Rizing: Rising sea levels threaten Africa's coasts"
 date:   2015-11-24
 categories: video animation
 image: compare-presidents.jpg
+thumbnail: compare-presidents--640x360.jpg
 youtube: XDsilEMSDpE
 link-project:  "https://projects.voanews.com/presidential-demographics/"
 ---

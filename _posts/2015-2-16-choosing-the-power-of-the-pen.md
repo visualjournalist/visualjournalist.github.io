@@ -4,6 +4,7 @@ title:  "Choosing the power of the pen"
 date:   2015-11-24
 categories: illustration
 image: gao_yu.jpg
+thumbnail: gao_yu--640x360.jpg
 link-project:  "http://www.blurb.com/books/6362951-it-s-not-ok-softcover"
 ---
 
