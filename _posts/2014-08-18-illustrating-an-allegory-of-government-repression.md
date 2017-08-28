@@ -4,7 +4,6 @@ title:  "Illustrating “Wild Pigeon,” an allegory of government repression"
 date:   2014-08-18
 categories: illustration
 image: gao_yu.jpg
-thumbnail: gao-yu--640x360.jpg
 youtube: MYDfi70V49Y
 ---
 

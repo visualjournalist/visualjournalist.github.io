@@ -4,7 +4,6 @@ title:  "“Remembering Tiananmen” 24 years later with an interactive iBook"
 date:   2013-07-20
 categories: video
 image: gao_yu.jpg
-thumbnail: gao_yu--640x360.jpg
 youtube: LJ_yAO9s9PU
 ---
 
