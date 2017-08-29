@@ -5,4 +5,4 @@
 layout: home
 ---
 
-This is an experiment in using Jekyll and Github pages. There is currently a lot of lorem ipsum on this site.
+This site is currently under development, and an experiment in using Jekyll and Github pages. There is a lot of lorem ipsum.

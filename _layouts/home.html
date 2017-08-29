@@ -4,11 +4,6 @@ layout: default
 
 <div class="home">
   <div class="vj__grid__full">
-    <div class="vj__grid" style="padding-top: 54px;">
-    
-    <!--{{ content }}-->
-    </div>
-
     <div class="vj__grid" style="margin-bottom: 40px;">
             <a class="post-link" href=" {{ site.posts[0].url | relative_url }}" style=" text-decoration: none;">
               {% if site.posts[0].image %}
@@ -49,6 +44,12 @@ layout: default
       {% endfor %}
       -->
     </div>
+
+    <div class="vj__grid" style="padding-top: 54px;">
+    
+      {{ content }}
+    </div>
+
 
     <div class="vj__grid">
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
