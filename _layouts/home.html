@@ -4,17 +4,32 @@ layout: default
 
 <div class="home">
   <div class="vj__grid__full">
-    <div class="vj__grid">
-
-    <h1 class="page-heading">Posts</h1>
+    <div class="vj__grid" style="padding-top: 54px;">
     
-    {{ content }}
+    <!--{{ content }}-->
+    </div>
+
+    <div class="vj__grid" style="margin-bottom: 40px;">
+            <a class="post-link" href=" {{ site.posts[0].url | relative_url }}" style=" text-decoration: none;">
+              {% if site.posts[0].image %}
+                <img src="/img/{{ site.posts[0].image }}">
+              {% else %}
+                <img src="https://placehold.it/1280x720">
+              {% endif %}
+                <h1 style="font-size: 42px;">
+                  {{ site.posts[0].title }}
+                </h1>
+              </a>
+              <p style="">{{ site.posts[0].excerpt | strip_html }}</p>
 
     </div>
 
+
    <div class="vj__grid vj__portfolio-grid">
       <!--
+      {% assign counter = 0 %}
       {% for post in site.posts %}
+        {% if counter >0 %}
           --><div class="vj__grid__element vj__portfolio-grid__item">
             <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
             <a class="post-link" href="{{ post.url | relative_url }}">
@@ -29,6 +44,8 @@ layout: default
               </h2>
             </a>
           </div><!--
+          {% endif %}
+          {% assign counter = counter | plus: 1 %}
       {% endfor %}
       -->
     </div>

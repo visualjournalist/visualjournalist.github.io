@@ -3,7 +3,8 @@ layout: post
 title:  "How far do pro athletes run during a match?"
 date:   2014-07-06
 categories: video animation
-image: compare-presidents.jpg
+image: 2014-07-06__pro-athletes-running.jpg
+thumbnail: 2014-07-06__pro-athletes-running--640x360.jpg
 youtube: z_BQ0Ec0p00
 link-project: "https://www.youtube.com/watch?v=z_BQ0Ec0p00"
 link-video: "https://www.youtube.com/watch?v=z_BQ0Ec0p00"

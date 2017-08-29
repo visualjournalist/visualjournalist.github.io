@@ -3,7 +3,8 @@ layout: post
 title:  "“Remembering Tiananmen” 24 years later with an interactive iBook"
 date:   2013-07-20
 categories: video
-image: gao_yu.jpg
+image: 2013-07-20__tiananmen-square.jpg
+thumbnail: 2013-07-20__tiananmen-square--640x360.jpg
 youtube: LJ_yAO9s9PU
 ---
 

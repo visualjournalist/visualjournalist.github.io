@@ -3,7 +3,8 @@ layout: post
 title:  "Surviving human trafficking"
 date:   2015-11-24
 categories: illustration
-image: compare-presidents.jpg
+image: 2015-11-24__human-trafficking.jpg
+thumbnail: 2015-11-24__human-trafficking--640x360.jpg
 youtube: C6m0ZEQ38lg
 link-project:  "https://projects.voanews.com/presidential-demographics/"
 ---

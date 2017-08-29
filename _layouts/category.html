@@ -22,7 +22,7 @@ layout: default
           --><div class="vj__grid__element vj__portfolio-grid__item">
             <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
             <a class="post-link" href="{{ post.url | relative_url }}">
-            {% if post.thumbnail != "" %}
+            {% if post.thumbnail %}
               <img src="/img/{{ post.thumbnail }}">
             {% else %}
               <img src="https://placehold.it/640x360">

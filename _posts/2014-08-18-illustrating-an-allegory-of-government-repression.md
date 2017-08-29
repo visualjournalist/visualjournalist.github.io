@@ -3,7 +3,8 @@ layout: post
 title:  "Illustrating “Wild Pigeon,” an allegory of government repression"
 date:   2014-08-18
 categories: illustration
-image: gao_yu.jpg
+image: 2014-08-18__wild-pigeon.jpg
+thumbnail: 2014-08-18__wild-pigeon--640x360.jpg
 youtube: MYDfi70V49Y
 ---
 
