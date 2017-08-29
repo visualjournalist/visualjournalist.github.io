@@ -73,7 +73,11 @@ layout: default
 
         <div class="vj__grid__one-third">
           <a href="{{ post.url }}">
-            <img src="http://placehold.it/360x240" class="rectangleImg" data-pin-nopin="true">
+              {% if post.thumbnail %}
+                <img src="/img/{{ post.thumbnail }}">
+              {% else %}
+                <img src="https://placehold.it/1280x720">
+              {% endif %}
             <div class="description">
               <h2 class="headline">{{ post.title }}</h2>
             </div>
