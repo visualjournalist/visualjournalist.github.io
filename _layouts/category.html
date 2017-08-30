@@ -2,38 +2,36 @@
 layout: default
 ---
 
-<div class="home">
-  <div class="vj__grid__full">
-    <div class="vj__grid">
+<div class="category vj__content">
+	<div class="vj__grid__full">
+		<div class="vj__grid">
 
+			<h3 class="vj__kicker" style="background-color: orange; margin-top: 50px;"> {{ page.title | escape }}</h3>
+	
+	{% unless page.content == '' %}
+			<p>{{ page.content }}</p>
+	{% endunless %}
 
-    <h3 class="vj__kicker" style="background-color: orange; margin-top: 50px;"> {{ page.title | escape }}</h3>
-    
-    {% unless page.content == '' %}
-      <p>{{ page.content }}</p>
-    {% endunless %}
+		</div>
 
-    </div>
-
-
-   <div class="vj__grid vj__portfolio-grid">
-      <!--
-      {% for post in site.categories[page.category] %}
-          --><div class="vj__grid__element vj__portfolio-grid__item">
-            <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
-            <a class="post-link" href="{{ post.url | relative_url }}">
-            {% if post.thumbnail %}
-              <img src="/img/{{ post.thumbnail }}">
-            {% else %}
-              <img src="https://placehold.it/640x360">
-            {% endif %}
-              <h2>
-                {{ post.title | escape }}
-              </h2>
-            </a>
-          </div><!--
-      {% endfor %}
-      -->
-    </div>
-  </div>
+		<div class="vj__grid vj__portfolio-grid">
+		  <!--
+		  {% for post in site.categories[page.category] %}
+			  --><div class="vj__grid__element vj__portfolio-grid__item">
+				<!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+				<a class="post-link" href="{{ post.url | relative_url }}">
+				{% if post.thumbnail %}
+				  <img src="/img/{{ post.thumbnail }}">
+				{% else %}
+				  <img src="https://placehold.it/640x360">
+				{% endif %}
+				  <h2>
+					{{ post.title | escape }}
+				  </h2>
+				</a>
+			  </div><!--
+		  {% endfor %}
+		  -->
+		</div>
+	</div>
 </div>

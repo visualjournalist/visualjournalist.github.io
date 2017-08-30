@@ -68,11 +68,9 @@ $(document).ready(function(){
 	$( ".main-menu-nav a").not(".has-submenu").click(function() {
 	  $( ".main-menu-nav").hide();
 	});
-	/*
-	$( ".voa__section__full-width" ).click(function() {
+	$( ".vj__content" ).click(function() {
 	  $( ".main-menu-nav").hide();
 	});
-	*/
 
 
 	$("#siteWarning").click(function() {
