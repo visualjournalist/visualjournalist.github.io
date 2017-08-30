@@ -21,7 +21,8 @@ url: "" # http://projects.voanews.com/circumvention #localhost:4000" # the base 
 
 twitter_username: "@BrianWmson"
 
-language_number: 3
+development_mode: true
+development_warning: This site is currently under active development. There is a lot of lorem ipsum.
 
 # Build settings
 markdown: kramdown

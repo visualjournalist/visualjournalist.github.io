@@ -4,5 +4,3 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-
-This site is currently under development, and an experiment in using Jekyll and Github pages. There is a lot of lorem ipsum.

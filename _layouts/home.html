@@ -2,8 +2,11 @@
 layout: default
 ---
 
-<div class="home">
+<div class="vj__content home">
   <div class="vj__grid__full">
+	
+	{{ content }}
+
 	<div class="vj__grid" style="margin: 54px auto 40px auto;">
 		<a class="vj__featured-post post-link" href=" {{ site.posts[0].url | relative_url }}" style=" text-decoration: none;">
 		  {% if site.posts[0].image %}
@@ -45,7 +48,8 @@ layout: default
 
   </div>
 </div>
-
-<div id="siteWarning" style="position: fixed; bottom: 0; width: 100%; padding: 0; text-align: center; background-color: #900; color: #FFF;">
-  {{ content }}
+{% if site.development_mode %}
+<div id="siteWarning" style="position: fixed; bottom: 0; width: 100%; padding: 10px; text-align: center; background-color: #900; color: #FFF;">
+  {{ site.development_warning }} | <a href="https://github.com/visualjournalist/visualjournalist.github.io" style="color: orange;">Read more</a>
 </div>
+{% endif %}
