@@ -1,96 +1,150 @@
 // Put project-specific CSS here.
 
-.vj__portfolio-grid {
-	&.vj__grid {
-		@media only screen and (max-width: $media__small) {
-			padding: 0;
+.vj__project {
+	a.vj__featured-post {
+		h1 {
+			color: #000;
 		}
-	}
-}
-
-.vj__related-links {
-	&.vj__grid {
-		@media only screen and (max-width: $media__small) {
-			padding: 0;
-		}
+		&:hover {
+			h1 {
+				color: orange;
+			}
+		};
 	}
 
-	ul {
-		margin: 0 auto;
-		max-width: 640px;
-		padding-left: 0;
-		li {
+
+	.vj__portfolio-grid {
+		&.vj__grid {
+			@media only screen and (max-width: $media__small) {
+				padding: 0;
+			}
+		}
+	}
+
+	.vj__related-links {
+		&.vj__grid {
+			@media only screen and (max-width: $media__small) {
+				padding: 0;
+			}
+		}
+
+		ul {
+			margin: 0 auto;
+			max-width: 640px;
+			padding-left: 0;
+			li {
+				border-bottom: 1px solid #CCC;
+				list-style: none;
+
+				&:first-of-type {
+					border-top: 1px solid #CCC;
+				}
+
+				a {
+					text-decoration: none;
+					display: block;
+					padding: 5px 5%;
+
+					&:hover {
+						background-color: #F1F1F1;
+					}
+				}
+
+				@media only screen and (min-width: $media__small) {
+					border-bottom: none;
+					&:first-of-type {
+						border-top: none;
+					}
+
+					a {
+						display: inline;
+						padding: 5px;
+
+						&:hover {
+							background-color: transparent;
+							text-decoration: underline;
+						}
+					}
+
+				}
+			}
+		}
+	}
+
+	.vj__recent-projects {
+
+		.vj__grid__one-third {
+			margin-bottom: 20px;
+		}
+
+		a {
+			color: #000;
+			display: block;
+			text-decoration: none;
+
+			h2 {
+				font-family: Arial, sans-serif;
+				font-size: 16px;
+				font-weight: bold;
+			}
+
+			&:hover {
+				h2 {
+					color: orange;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	.vj__portfolio-grid__item {
+		margin-bottom: 20px;
+
+		a {
+			color: #000;
+			display: block;
+			text-decoration: none;
+
+			h2 {
+				font-family: Arial, sans-serif;
+				font-size: 16px;
+				font-weight: bold;
+			}
+
+			&:hover {
+				h2 {
+					color: orange;
+					text-decoration: underline;
+				}
+			}
+		}
+
+
+
+		@media only screen and (max-width: $media__small) {
 			border-bottom: 1px solid #CCC;
-			list-style: none;
+			display: inline-block;
+			margin-bottom: 1px;
+			min-height: 60px;
 
 			&:first-of-type {
 				border-top: 1px solid #CCC;
 			}
 
-			a {
-				text-decoration: none;
-				display: block;
-				padding: 5px 5%;
-
-				&:hover {
-					background-color: #F1F1F1;
-				}
-			}
-
-			@media only screen and (min-width: $media__small) {
-				border-bottom: none;
-				&:first-of-type {
-					border-top: none;
-				}
-
-				a {
-					display: inline;
-					padding: 5px;
-
-					&:hover {
-						background-color: transparent;
-						text-decoration: underline;
-					}
-				}
-
-			}
-		}
-	}
-}
-
-.vj__portfolio-grid__item {
-	margin-bottom: 20px;
-
-	a {
-		color: #000;
-		text-decoration: none;
-
-		&:hover {
 			h2 {
-				color: orange;
-				text-decoration: underline;
+			    display: inline-block;
+			    vertical-align: middle;
+			    width: 70%;
+			    width: calc(100% - 135px);
+			}
+			img {
+			    display: inline-block;
+				margin-right: 5px;
+			    vertical-align: middle;
+				width: 120px;
 			}
 		}
-	}
 
-
-	@media only screen and (max-width: $media__small) {
-		border-bottom: 1px solid #CCC;
-		display: inline-block;
-		margin-bottom: 1px;
-		min-height: 60px;
-
-		h2 {
-			font-family: Arial, sans-serif;
-			font-size: 16px;
-			font-weight: bold;
-			padding-left: 125px;
-		}
-		img {
-			float: left;
-			margin-right: 5px;
-			width: 120px;
-		}
 	}
 
 }

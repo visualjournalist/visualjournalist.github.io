@@ -64,7 +64,12 @@ layout: default
 
 
 
-<div class="vj__grid__full" style="margin-top: 40px;">
+<div class="vj__grid__full vj__recent-projects" style="margin-top: 40px;">
+
+        <div class="vj__grid">
+        <h3 class="vj__label" style="margin-bottom: 0;">Recent projects</h3>
+
+        </div>
         <div class="vj__grid">
 
 {% for post in site.posts limit:4 %}
@@ -73,14 +78,12 @@ layout: default
 
         <div class="vj__grid__one-third">
           <a href="{{ post.url }}">
-              {% if post.thumbnail %}
-                <img src="/img/{{ post.thumbnail }}">
-              {% else %}
-                <img src="https://placehold.it/1280x720">
-              {% endif %}
-            <div class="description">
-              <h2 class="headline">{{ post.title }}</h2>
-            </div>
+      {% if post.thumbnail %}
+            <img src="/img/{{ post.thumbnail }}">
+      {% else %}
+            <img src="https://placehold.it/1280x720">
+      {% endif %}
+            <h2 class="headline">{{ post.title }}</h2>
           </a>
         </div>
 
@@ -90,38 +93,6 @@ layout: default
     {% assign found = true %} 
   {% endif %}
 {% endfor %}
-
-<!--
-        <div class="vj__grid__one-third">
-          <a href="#">
-            <img src="http://placehold.it/360x240" class="rectangleImg" data-pin-nopin="true">
-            <div class="description">
-              <h2 class="headline"><span class="illustration">illustration: </span>Choosing the power of the pen</h2>
-            </div>
-          </a>
-        </div>
-      
-      
-        <div class="vj__grid__one-third">
-          <a href="#">
-            <img src="http://placehold.it/360x240" class="rectangleImg" data-pin-nopin="true">
-            <div class="description">
-              <h2 class="headline"><span class="illustration">illustration: </span>Choosing the power of the pen</h2>
-            </div>
-          </a>
-        </div>
-      
-
-        <div class="vj__grid__one-third">
-          <a href="#">
-            <img src="http://placehold.it/360x240" class="rectangleImg" data-pin-nopin="true">
-            <div class="description">
-              <h2 class="headline"><span class="illustration">illustration: </span>Choosing the power of the pen</h2>
-            </div>
-          </a>
-        </div>
-      
--->
   
         </div>
       </div>

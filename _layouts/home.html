@@ -4,13 +4,15 @@ layout: default
 
 <div class="home">
   <div class="vj__grid__full">
-    <div class="vj__grid" style="margin-bottom: 40px;">
-            <a class="post-link" href=" {{ site.posts[0].url | relative_url }}" style=" text-decoration: none;">
+    <div class="vj__grid" style="margin: 54px auto 40px auto;">
+            <a class="vj__featured-post post-link" href=" {{ site.posts[0].url | relative_url }}" style=" text-decoration: none;">
               {% if site.posts[0].image %}
                 <img src="/img/{{ site.posts[0].image }}">
               {% else %}
                 <img src="https://placehold.it/1280x720">
               {% endif %}
+              </a>
+              <a class="vj__featured-post post-link" href=" {{ site.posts[0].url | relative_url }}" style=" text-decoration: none;">
                 <h1 style="font-size: 42px;">
                   {{ site.posts[0].title }}
                 </h1>
