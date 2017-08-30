@@ -75,6 +75,10 @@ $(document).ready(function(){
 	*/
 
 
+	$("#siteWarning").click(function() {
+	  $( "#siteWarning").hide();
+	});
+
 
 
 	/*

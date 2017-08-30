@@ -4,58 +4,48 @@ layout: default
 
 <div class="home">
   <div class="vj__grid__full">
-    <div class="vj__grid" style="margin: 54px auto 40px auto;">
-            <a class="vj__featured-post post-link" href=" {{ site.posts[0].url | relative_url }}" style=" text-decoration: none;">
-              {% if site.posts[0].image %}
-                <img src="/img/{{ site.posts[0].image }}">
-              {% else %}
-                <img src="https://placehold.it/1280x720">
-              {% endif %}
-              </a>
-              <a class="vj__featured-post post-link" href=" {{ site.posts[0].url | relative_url }}" style=" text-decoration: none;">
-                <h1 style="font-size: 42px;">
-                  {{ site.posts[0].title }}
-                </h1>
-              </a>
-              <p style="">{{ site.posts[0].excerpt | strip_html }}</p>
-
-    </div>
-
-
-   <div class="vj__grid vj__portfolio-grid">
-      <!--
-      {% assign counter = 0 %}
-      {% for post in site.posts %}
-        {% if counter >0 %}
-          --><div class="vj__grid__element vj__portfolio-grid__item">
-            <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
-            <a class="post-link" href="{{ post.url | relative_url }}">
-            {% if post.thumbnail %}
-              <img src="/img/{{ post.thumbnail }}">
-            {% else %}
-              <img src="https://placehold.it/640x360">
-            {% endif %}
-              <!--<img src="/img/{{ post.image }}">-->
-              <h2>
-                {{ post.title | escape }}
-              </h2>
-            </a>
-          </div><!--
-          {% endif %}
-          {% assign counter = counter | plus: 1 %}
-      {% endfor %}
-      -->
-    </div>
+	<div class="vj__grid" style="margin: 54px auto 40px auto;">
+		<a class="vj__featured-post post-link" href=" {{ site.posts[0].url | relative_url }}" style=" text-decoration: none;">
+		  {% if site.posts[0].image %}
+			<img src="/img/{{ site.posts[0].image }}">
+		  {% else %}
+			<img src="https://placehold.it/1280x720">
+		  {% endif %}
+		</a>
+		<a class="vj__featured-post post-link" href=" {{ site.posts[0].url | relative_url }}" style=" text-decoration: none;">
+			<h1 style="font-size: 42px;">
+			  {{ site.posts[0].title }}
+			</h1>
+		</a>
+		<p style="">{{ site.posts[0].excerpt | strip_html }}</p>
+	</div>
 
 
+	<div class="vj__grid vj__portfolio-grid">
+	  <!--
+	  {% assign counter = 0 %}
+	  {% for post in site.posts %}
+		{% if counter >0 %}
+		 --><div class="vj__grid__element vj__portfolio-grid__item">
+			<!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+				<a class="post-link" href="{{ post.url | relative_url }}">
+				{% if post.thumbnail %}
+				  <img src="/img/{{ post.thumbnail }}">
+				{% else %}
+				  <img src="https://placehold.it/640x360">
+				{% endif %}
+				  <h2>{{ post.title | escape }}</h2>
+				</a>
+		 	</div><!--
+		  {% endif %}
+		  {% assign counter = counter | plus: 1 %}
+	  {% endfor %}
+	  -->
+	</div>
 
-    <div class="vj__grid">
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-    </div>
   </div>
 </div>
 
-    <div class="vj__gridx" style="position: fixed; bottom: 0; width: 100%; padding: 0; text-align: center; background-color: #900; color: #FFF;">
-    
-      {{ content }}
-    </div>
+<div id="siteWarning" style="position: fixed; bottom: 0; width: 100%; padding: 0; text-align: center; background-color: #900; color: #FFF;">
+  {{ content }}
+</div>
