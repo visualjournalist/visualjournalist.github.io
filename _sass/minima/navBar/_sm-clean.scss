@@ -9,7 +9,7 @@
 .sm-clean a, .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active {
   padding: 13px  58px 13px 20px;
   /* make room for the toggle button (sub indicator) */
-  color: $color__vj-gray-light;
+  color: orange;//$color__vj-gray-light;
   font-family: $font__sans;
   font-size: 18px;
   font-weight: normal;
@@ -159,7 +159,7 @@
     border-radius: 0;
   }
   .sm-clean a, .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active, .sm-clean a.highlighted {
-    padding: 12px 12px;
+    padding: 17px 12px;//12px 12px;
     color: $color__vj-gray-light;
     -webkit-border-radius: 0 !important;
     -moz-border-radius: 0 !important;
@@ -168,7 +168,8 @@
     border-radius: 0 !important;
   }
   .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active, .sm-clean a.highlighted {
-    color: $color__vj-blue-light;
+    color: orange;//$color__vj-blue-light;
+    text-decoration: underline;
   }
   .sm-clean a.current {
     color: $color__vj-blue-light;
@@ -200,10 +201,10 @@
   }
   .sm-clean li {
     border-top: 0;
-    border-right: 1px solid #555;
+    border-right: 1px solid #CCC;//#555;
   }
   .sm-clean li:first-of-type {
-    border-left: 1px solid #555;
+    border-left: 1px solid #CCC;//#555;
   }
   .sm-clean li ul li, .sm-clean li ul li:first-of-type {
     border: none;

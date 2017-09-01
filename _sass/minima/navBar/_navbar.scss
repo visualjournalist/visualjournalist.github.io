@@ -5,8 +5,10 @@
 }
 
 .vj__navbar {
-	background-color: #222; //rgba(20, 20, 20, .9);
-	margin: 0;
+	//background-color: #222; //rgba(20, 20, 20, .9);
+    background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+   	margin: 0;
 	padding: 0;
 	position: fixed; //absolute;
 		top: 0;
@@ -53,7 +55,7 @@
 			}
 
 			.sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active, .sm-clean a.highlighted {
-				color: $color__vj-gray-lightest;
+				color: orange;//$color__vj-gray-lightest;
 			}
 		}
 	}
@@ -152,7 +154,7 @@
 		font-family: "Oswald", Oswald, SkolarSans-BdCond_Cyr-Ltn, Arial, sans-serif;
 		font-size: 24px;
 		font-weight: normal;
-		margin-top: 5px;
+		margin-top: 10px;//5px;
 		padding-left: 10px;
 		text-transform: uppercase;
 		text-decoration: none;
