@@ -11,6 +11,18 @@
 }
 
 .vj__rule {
+	@media only screen and (max-width: 640px) {
+		&.wide-right {
+			border-bottom: $border__dotted-light;
+			margin-bottom: 20px;
+			padding-bottom: 20px; 
+		}
+		&.wide-left {
+			border-top: $border__solid-light;
+			padding-top: 30px; 
+		}
+	}
+
 	@media only screen and (min-width: 640px) {
 		&.wide-right {
 			border-right: $border__solid-light;
