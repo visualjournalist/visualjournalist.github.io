@@ -1,11 +1,24 @@
 visualjournalist.github.io
 ==========================
 
-An experiment in using Jekyll with Github pages to host a simple portfolio site.
+Welcome to my new portfolio of illustrations, animations and interactive design. This site represents the latest incarnation of an evolving portfolio and understanding of web design. 
 
-This is a quick demo to show how Jekyll can be used to bake out static HTML for the circumvention project. The comic book templates are stored in the '_includes' folder. The JSON of the translations for the comics (and metadata) is stored in the '_data' folder in individual .json files (e.g. 'dns.json'). Each language has its own folder (e.g. '/russian/') with a '/_posts/' folder. By keeping the markdown files for the translations in those folders the site will preserve the site structure. Each translation .md file has an include at the topic for the appropriate comic and passes in the language number: '{% include comic__dns.html langnumber=5 %}'
+Each iteration has been a way to experiment with new technologies. 
 
-###Directory structure of Jekyll sites using gem-based themes
+My first site was an elaborate <a href='http://designasprocess.com/view/'>Flash-based virtual Viewmaster</a>. Since then I've created table-based HTML sites, abandonded tables for CSS, and  hosted a couple of WordPress sites.
+
+My last site was built as a [Node Express web application](https://github.com/visualjournalist/portfolio-sheet) using a <a href='https://docs.google.com/spreadsheets/d/1qbDmkc5CQ0I14NWclfB0W3AA2EbLObX3ZKXJ8dVc-3o/pubhtml'>Google Spreadsheet</a> to supply the data. 
+
+###The new solution ###
+
+My current approach is to host [the site](http://visualjournali.st) using Jekyll and GitHub pages. 
+
+Jekyll provides a simple solution for baking out a static site. GitHub Pages allows for a simple and fast way to host the site.
+
+
+### Temporary technical notes and reference ###
+
+####Directory structure of Jekyll sites using gem-based themes####
 Starting Jekyll 3.2, a new Jekyll project bootstrapped with jekyll new uses gem-based themes to define the look of the site. This results in a lighter default directory structure : _layouts, _includes and _sass are stored in the theme-gem, by default.
 
 minima is the current default theme. 
@@ -40,6 +53,9 @@ If you read the README file for the theme, it gives instructions on ways to over
 	  - Go to your local minima gem installation directory ( run `bundle show minima` to get the path to it ).
 	  - Copy the `assets/` folder from there into the root of `<your-site>`
 	  - Change whatever values you want, inside `<your-site>/assets/main.scss`
+
+
+
 
 
 
