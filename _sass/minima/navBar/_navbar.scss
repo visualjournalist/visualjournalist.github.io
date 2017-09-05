@@ -8,6 +8,7 @@
 	//background-color: #222; //rgba(20, 20, 20, .9);
     background-color: #FFF;
     border-bottom: 1px solid #CCC;
+	box-shadow: 0 2px 5px rgba(20,20,20,.1);
    	margin: 0;
 	padding: 0;
 	position: fixed; //absolute;
@@ -155,6 +156,7 @@
 		font-size: 24px;
 		font-weight: normal;
 		margin-top: 10px;//5px;
+		margin-bottom: 12px;
 		padding-left: 10px;
 		text-transform: uppercase;
 		text-decoration: none;
