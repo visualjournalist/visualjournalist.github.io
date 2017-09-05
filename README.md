@@ -1,7 +1,7 @@
 visualjournalist.github.io
 ==========================
 
-Welcome to my new portfolio of illustrations, animations and interactive design. This site represents the latest incarnation of an evolving portfolio and understanding of web design. 
+Welcome to [my new portfolio of illustrations, animations and interactive design](http://visualjournali.st). This site represents the latest incarnation of an evolving portfolio and understanding of web design. 
 
 Each iteration has been a way to experiment with new technologies. 
 
@@ -9,7 +9,7 @@ My first site was an elaborate <a href='http://designasprocess.com/view/'>Flash-
 
 My last site was built as a [Node Express web application](https://github.com/visualjournalist/portfolio-sheet) using a <a href='https://docs.google.com/spreadsheets/d/1qbDmkc5CQ0I14NWclfB0W3AA2EbLObX3ZKXJ8dVc-3o/pubhtml'>Google Spreadsheet</a> to supply the data. 
 
-###The new solution ###
+### The new solution ###
 
 My current approach is to host [the site](http://visualjournali.st) using Jekyll and GitHub pages. 
 
@@ -18,7 +18,7 @@ Jekyll provides a simple solution for baking out a static site. GitHub Pages all
 
 ### Temporary technical notes and reference ###
 
-####Directory structure of Jekyll sites using gem-based themes####
+#### Directory structure of Jekyll sites using gem-based themes ####
 Starting Jekyll 3.2, a new Jekyll project bootstrapped with jekyll new uses gem-based themes to define the look of the site. This results in a lighter default directory structure : _layouts, _includes and _sass are stored in the theme-gem, by default.
 
 minima is the current default theme. 
@@ -35,7 +35,7 @@ To open that folder in the current terminal window in finder.
 
 If you read the README file for the theme, it gives instructions on ways to override the theme SASS at the project level
 
-	### Customization
+	### Customization ###
 
 	To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file.
 	e.g., to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path, create an `_includes` directory, copy `_includes/head.html` from minima gem folder to `<yoursite>/_includes` and start editing that file.
