@@ -14,10 +14,39 @@ layout: default
 
 		</div>
 
+
+
+
+
+
+	<div class="vj__grid" style="margin: 10px auto 10px auto;">
+		<a class="vj__featured-post post-link" href=" {{ site.categories[page.category][0].url | relative_url }}" style=" text-decoration: none;">
+		  {% if site.categories[page.category][0].image %}
+			<img src="/img/{{ site.categories[page.category][0].image }}">
+		  {% else %}
+			<img src="https://placehold.it/1280x720">
+		  {% endif %}
+		</a>
+		<a class="vj__featured-post post-link" href=" {{ site.categories[page.category][0].url | relative_url }}" style=" text-decoration: none;">
+			<h1 style="font-size: 42px;">
+			  {{ site.categories[page.category][0].title }}
+			</h1>
+		</a>
+		<p style="">{{ site.categories[page.category][0].excerpt | strip_html }}</p>
+	</div>
+
+
+
+
+
+
+
 		<div class="vj__grid vj__portfolio-grid">
-		  <!--
-		  {% for post in site.categories[page.category] %}
-			  --><div class="vj__grid__element vj__portfolio-grid__item">
+	  <!--
+	  {% assign counter = 0 %}
+	  {% for post in site.categories[page.category] %}
+		{% if counter >0 %}
+		 --><div class="vj__grid__element vj__portfolio-grid__item">
 				<!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
 				<a class="post-link" href="{{ post.url | relative_url }}">
 				{% if post.thumbnail %}
@@ -30,6 +59,8 @@ layout: default
 				  </h2>
 				</a>
 			  </div><!--
+		  {% endif %}
+		  {% assign counter = counter | plus: 1 %}
 		  {% endfor %}
 		  -->
 		</div>
