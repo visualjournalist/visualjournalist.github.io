@@ -2,7 +2,7 @@
 layout: post
 title:  "Comparing U.S. presidential inaugural addresses from Washington to Trump"
 date:   2017-01-19
-categories: design interactive
+categories: interactive
 image: 2017-01-19__inaugural-comparison.jpg
 thumbnail: 2017-01-19__inaugural-comparison.jpg
 link-project:  "https://projects.voanews.com/inaugural-comparison/"

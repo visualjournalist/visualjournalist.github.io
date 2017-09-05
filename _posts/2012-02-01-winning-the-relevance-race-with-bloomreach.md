@@ -2,7 +2,7 @@
 layout: post
 title:  "Winning the relevance race with BloomReach"
 date:   2012-02-01
-categories: video animation
+categories: animation
 image: 2012-02-01__winning-the-relevance-race-with-bloomreach.jpg
 thumbnail: 2012-02-01__winning-the-relevance-race-with-bloomreach--640x360.jpg
 youtube: sgK27RZDVfU
