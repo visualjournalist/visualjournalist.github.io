@@ -12,11 +12,26 @@
 		};
 	}
 
+	.vj__story {
+		p:first-of-type {
+			margin-top: 0;
+		}
+	}
+
 	.vj__half-column {
 		@media only screen and (min-width: $media__medium) {
 			float: right;
 			margin-left: 2%;
 			width: 48%;
+		}
+	}
+
+
+	.vj__medium-half {
+		@media only screen and (min-width: $media__medium) {
+			float: left;
+			width: 48%;
+			margin-right: 2%;
 		}
 	}
 

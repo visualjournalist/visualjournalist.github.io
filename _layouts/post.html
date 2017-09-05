@@ -4,7 +4,7 @@ layout: default
 <article class="post vj__grid__full vj__content" itemscope itemtype="http://schema.org/BlogPosting">
 	<section class="vj__section__full-width">
 		  <div class="vj__grid__full">
-			<div class="vj__grid">
+			<div class="vj__grid" style="margin-bottom: 0;">
 			  
 				<header class="post-header" style="padding-top: 60px;">
 				<h3 class="vj__kicker" style="background-color: orange;"><a href="/{{ page.categories.last }}/">{{ page.categories.last }}</a></h3>
@@ -22,9 +22,16 @@ layout: default
 {% if page.youtube %}
 	<div class='embed-container'><iframe src="http://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe></div>
 {% elsif page.image %}
-  {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
-	{% if page.image %}<img alt="dogs" src="{{ site.url }}/img/{{ page.image }}" />{% endif %}
-  {% if page.image and page.link-project %}</a>{% endif %}
+
+	{% if page.vertical %}
+	  {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
+		{% if page.image %}<img class="vj__medium-half" alt="" src="{{ site.url }}/img/{{ page.image }}" style="" />{% endif %}
+	  {% if page.image and page.link-project %}</a>{% endif %}
+	{% else %}
+	  {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
+		{% if page.image %}<img alt="" src="{{ site.url }}/img/{{ page.image }}" style="margin-bottom: 30px;" />{% endif %}
+	  {% if page.image and page.link-project %}</a>{% endif %}
+  {% endif %}
 {% endif %}
 
 	<div class="vj__grid__full">
@@ -54,6 +61,7 @@ layout: default
 		{% if page.link-code %}<li><a href="{{ page.link-code }}">View the code</a></li>{% endif %}
 		{% if page.link-blogpost %}<li><a href="{{ page.link-blogpost }}">Read a blogpost</a></li>{% endif %}
 		{% if page.link-video %}<li><a href="{{ page.link-video }}">Watch a video</a></li>{% endif %}
+		{% if page.link-pdf %}<li><a href="{{ page.link-pdf }}">Download the PDF</a></li>{% endif %}
 		</ul>
 	</div>
 {% endif %}
