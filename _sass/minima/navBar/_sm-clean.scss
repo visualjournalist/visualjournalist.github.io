@@ -77,6 +77,16 @@
 .sm-clean li {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
+
+.sm-clean li a.current {
+  background-color: #F1F1F1;
+  color: #666;
+  /*
+  background-color: orange;
+  color: #FFF;
+  */
+}
+
 .sm-clean > li:first-child {
   border-top: 0;
 }
