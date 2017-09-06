@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mosul: What's next after the Islamic State?"
+title:  "Mosul: What’s next after the Islamic State?"
 date:   2017-06-09
 categories: design
 image: 2017-06-09__mosul.jpg
