@@ -4,12 +4,14 @@ layout: default
 
 <div class="category vj__content">
 	<div class="vj__grid__full" style="padding-top: 36px;">
-		<div class="vj__grid">
+		<div class="vj__grid" style="margin-bottom: 4px;">
 
 			<!--<h3 class="vj__kicker" style="background-color: orange; margin-top: 50px;"> {{ page.title | escape }}</h3>-->
 	
 	{% unless page.content == '' %}
-			<p>{{ page.content }}</p>
+			<div style="padding: 20px 5%; background-color: #F1F1F1; line-height: 1.5;">
+				<p>{{ page.content }}</p>
+			</div>
 	{% endunless %}
 
 		</div>
@@ -19,7 +21,7 @@ layout: default
 
 
 
-	<div class="vj__grid" style="margin: 10px auto 10px auto;">
+	<div class="vj__grid" style="margin: 0 auto 10px auto;">
 		<a class="vj__featured-post post-link" href=" {{ site.categories[page.category][0].url | relative_url }}" style=" text-decoration: none;">
 		  {% if site.categories[page.category][0].image %}
 			<img src="/img/{{ site.categories[page.category][0].image }}">
