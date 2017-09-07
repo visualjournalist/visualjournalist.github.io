@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Voices from small town and rural America?"
+title:  "Voices from small town and rural America"
 date:   2017-05-17
 categories: design
 image: 2017-05-17__off-the-highway.jpg

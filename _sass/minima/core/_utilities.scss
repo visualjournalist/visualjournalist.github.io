@@ -46,7 +46,14 @@
 		display: none;
 	}
 }
-
+.vj__project {
+	.vj__hide-large {
+		display: block;
+		@media only screen and (min-width: 778px) {
+			display: none !important;
+		}
+	}
+}
 
 
 @media only screen and (min-width: $media__medium-large) and (max-width: $media__large--) {

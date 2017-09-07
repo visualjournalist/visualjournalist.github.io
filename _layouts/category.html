@@ -6,10 +6,10 @@ layout: default
 	<div class="vj__grid__full" style="padding-top: 36px;">
 		<div class="vj__grid" style="margin-bottom: 4px;">
 
-			<!--<h3 class="vj__kicker" style="background-color: orange; margin-top: 50px;"> {{ page.title | escape }}</h3>-->
+			<h3 class="vj__kicker vj__hide-large" style="background-color: orange; margin-top: 30px;"> {{ page.title | escape }}</h3>
 	
 	{% unless page.content == '' %}
-			<div style="padding: 20px 5%; background-color: #F1F1F1; line-height: 1.5;">
+			<div style="padding: 20px 5%; background-color: #F1F1F1; line-height: 1.5; border-radius: 0 0 15px 15px; margin-bottom: 20px;">
 				<p>{{ page.content }}</p>
 			</div>
 	{% endunless %}
