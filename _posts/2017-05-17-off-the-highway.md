@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Voices from small town and rural America"
-date:   2017-05-17
+date: 2017-05-17
 categories: design
 image: 2017-05-17__off-the-highway.jpg
 thumbnail: 2017-05-17__off-the-highway--640x360.jpg
-credit: credit: Deepak Dobhal | VOA News
+credit: Deepak Dobhal | VOA News
 link-project:  "http://projects.voanews.com/off-the-highway/"
 ---
 
