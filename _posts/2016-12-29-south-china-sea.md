@@ -5,6 +5,7 @@ date: 2016-12-29
 categories: design interactive
 image: 2016-12-29__south-china-sea.jpg
 thumbnail: 2016-12-29__south-china-sea--640x360.jpg
+credit: Reuters
 link-project:  "https://projects.voanews.com/south-china-sea/"
 ---
 
