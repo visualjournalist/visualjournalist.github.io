@@ -9,7 +9,6 @@ youtube: HdExOj_b9Ts
 link-video: https://www.youtube.com/embed/HdExOj_b9Ts
 
 ---
-http://www.youtube.com/embed/HdExOj_b9Ts
 **Usability testing is a structured interview technique that can help evaluate and inform the development of a digital product. It gives direct insight into how real users actually navigate the digital interface.**
 
 As our office transitioned to an agile development environment, the UX team ran a series of smaller, more frequent tests with five or six participants, taking time out for corrections in between each round of testing.

@@ -7,8 +7,6 @@ image: circumvention.jpg
 thumbnail: circumvention--640x360.jpg
 link-project:  "https://projects.voanews.com/circumvention/"
 link-code:     "https://github.com/voanews/circumvention/"
-link-blogpost: "https://google.com"
-link-video:    "https://youtube.com"
 ---
 
 **Hardline regimes around the world attempt to suppress internet access and spy on online users. To combat this trend, Voice of America decided to create a simple primer to help people evade online censors.**

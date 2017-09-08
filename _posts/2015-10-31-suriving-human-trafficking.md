@@ -6,7 +6,7 @@ categories: video animation
 image: 2015-11-24__human-trafficking.jpg
 thumbnail: 2015-11-24__human-trafficking--640x360.jpg
 youtube: C6m0ZEQ38lg
-link-project:  "https://projects.voanews.com/presidential-demographics/"
+link-project:  "http://www.rfa.org/english/breaking-free/"
 ---
 
 **Helped create scripts and <a href='http://184.73.203.85:8080/storyboard.html'>storyboards</a> for short animations based on oral interviews with survivors of human trafficking. The animations were intended to help promote a series of longer documentaries about the survivors.**

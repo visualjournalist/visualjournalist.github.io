@@ -6,7 +6,7 @@ categories: animation
 image: 2015-11-24__rising-sea-levels-in-africa.jpg
 thumbnail: 2015-11-24__rising-sea-levels-in-africa--640x360.jpg
 youtube: XDsilEMSDpE
-link-project:  "https://projects.voanews.com/presidential-demographics/"
+link-project:  "https://africa.rizing.org/whats-up-with-climate-change-senegals-changing-coastlines"
 ---
 
 **Senegalese professor Bamol Ali Sow explains how climate change is causing rising sea levels along Africa’s coasts.**
