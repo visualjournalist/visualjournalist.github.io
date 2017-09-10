@@ -57,6 +57,6 @@ If you read the README file for the theme, it gives instructions on ways to over
 
 
 
-
+When working locally, you may periodically need to run: `$ bundle update` before you can run `$ jekyll serve`.
 
 
