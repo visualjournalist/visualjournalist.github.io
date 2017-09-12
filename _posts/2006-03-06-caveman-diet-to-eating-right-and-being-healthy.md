@@ -5,6 +5,7 @@ date:   2006-03-06
 categories: illustration comics
 image: 2006-03-06__caveman-diet.jpg
 thumbnail: 2006-03-06__caveman-diet--640x360.jpg
+credit: Brian Williamson | St. Louis Post-Dispatch
 link-project:  "http://visualjournali.st/img/2006-03-06__CaveMan.pdf"
 ---
 

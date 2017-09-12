@@ -5,6 +5,7 @@ date:   2014-07-06
 categories: animation
 image: 2014-07-06__pro-athletes-running.jpg
 thumbnail: 2014-07-06__pro-athletes-running--640x360.jpg
+credit: Brian Williamson | VOA
 youtube: z_BQ0Ec0p00
 link-video: "https://www.youtube.com/watch?v=z_BQ0Ec0p00"
 ---

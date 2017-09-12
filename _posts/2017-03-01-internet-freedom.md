@@ -5,6 +5,7 @@ date:   2017-03-01
 categories: design illustration
 image: 2017-03-01__internet-freedom.jpg
 thumbnail: 2017-03-01__internet-freedom--640x360.jpg
+credit: Brian Williamson | VOA
 link-project:  "http://internetfreedom.io"
 ---
 

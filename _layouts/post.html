@@ -21,11 +21,19 @@ layout: default
 
 {% if page.youtube %}
 	<div class='embed-container'><iframe src="http://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe></div>
+	<div class="vj__grid">
+		<p class="vj__credit">{{ page.credit }}</p>
+	</div>
+
 {% elsif page.image %}
 
 	{% if page.vertical %}
 	  {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
-		{% if page.image %}<img class="vj__medium-half" alt="" src="{{ site.url }}/img/{{ page.image }}" style="" />{% endif %}
+		{% if page.image %}<div class="vj__medium-half"><img class="" alt="" src="{{ site.url }}/img/{{ page.image }}" style="" />
+		<div class="vj__grid">
+			<p class="vj__credit">{{ page.credit }}</p>
+		</div>
+		</div>{% endif %}
 	  {% if page.image and page.link-project %}</a>{% endif %}
 	{% else %}
 	  {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
@@ -33,13 +41,14 @@ layout: default
 			<img alt="" src="{{ site.url }}/img/{{ page.image }}" style="" />
 
 		{% endif %}
-	  {% if page.image and page.link-project %}</a>
-			<div class="vj__grid">
-				<p class="vj__credit" style="color: #999; font-family: Arial, sans-serif; font-size: 90%; margin-top: 0;margin-bottom: 30px; text-align: right;">{{ page.credit }}</p>
-			</div>
+	  {% if page.image and page.link-project %}</a>{% endif %}
 
-	  {% endif %}
+	  	<div class="vj__grid">
+			<p class="vj__credit">{{ page.credit }}</p>
+		</div>
+
   {% endif %}
+
 {% endif %}
 
 	<div class="vj__grid__full">

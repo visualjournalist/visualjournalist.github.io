@@ -5,6 +5,7 @@ date:   2002-01-01
 categories: illustration
 image: 2002-01-01__william-least-heat-moon.jpg
 thumbnail: 2002-01-01__william-least-heat-moon--640x360.jpg
+credit: Brian Williamson | Vox Magazine
 vertical: true
 ---
 

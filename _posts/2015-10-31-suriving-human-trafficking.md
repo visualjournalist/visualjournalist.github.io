@@ -6,6 +6,7 @@ categories: video animation
 image: 2015-11-24__human-trafficking.jpg
 thumbnail: 2015-11-24__human-trafficking--640x360.jpg
 youtube: C6m0ZEQ38lg
+credit: Prum Vannak | Radio Free Asia
 link-project:  "http://www.rfa.org/english/breaking-free/"
 ---
 

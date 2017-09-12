@@ -6,6 +6,7 @@ categories: illustration
 image: gao_yu.jpg
 thumbnail: gao_yu--640x360.jpg
 vertical: true
+credit: Brian Williamson | Radio Free Asia
 link-project:  "http://www.blurb.com/books/6362951-it-s-not-ok-softcover"
 ---
 
