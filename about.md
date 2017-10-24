@@ -5,14 +5,4 @@ permalink: /about/
 exclude_from_nav: true
 ---
 
-BRIAN WILLIAMSON creates conceptual illustrations, portraits, infographics and comics. He's illustrated everything from abstract stories on the economy to practical how-to stories on exercise. His illustrations have been featured in newspapers around the country. He is equally comfortable working with dirty, real-world paint and the virtual equivalent. You can see more of his illustration work at www.drawing-hands.com.
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+BRIAN WILLIAMSON is an interactive designer for Voice of America’s News Center. He designs, illustrates, animates and writes code to tell stories for [voanews.com](https://voanews.com). Recent projects have incorporated comics journalism to tell the stories of ivory poachers and the wives of ISIS fighters, and to explain how the White House has traditionally secured presidential phone call transcripts. Prior to joining VOA, he was the senior UX designer for BBG’s Office of Digital and Design Innovation, where he contributed to open source journalism projects, illustrated books for Radio Free Asia and helped coordinate VOA's 2014 World Cup coverage. He started his visual journalism career as a page designer at the St. Louis Post-Dispatch from 2004 to 2010. He has taught intro and advanced magazine design courses at the University of Missouri School of Journalism. Williamson is a graduate of Washington University in St. Louis, Missouri, where he majored in illustration.
