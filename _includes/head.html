@@ -29,7 +29,7 @@
 	<script type="text/javascript" src="https://www.voanews.com/MediaAssets2/projects/voa_graphics/resources/jquery.smartmenus.min.js"></script>
 
 	<script type="text/javascript" src="/js/scripts.js"></script>
-
+	<script type="text/javascript" src='/js/balancetext.min.js'></script>
 
 	<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
@@ -38,5 +38,11 @@
 	{% if jekyll.environment == 'production' and site.google_analytics %}
 	{% include google-analytics.html %}
 	{% endif %}
+
+	<style type="text/css">
+			.balance-text {
+				text-wrap: balance;  /* Apply (proposed) CSS style */
+			}
+	</style>
 
 </head>

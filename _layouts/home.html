@@ -21,31 +21,11 @@ layout: default
 
 		<div class="vj__grid__one-third" style="margin-right: 0;">
 		  <div class="voa__grid">
-		  	<div class="vj__grid__half__small">
 		  		<!--<h3 class="vj__label">CODING</h3>-->
-				<ul>
-					<li>HTML</li>
-					<li>SASS/CSS</li>
-					<li>JavaScript and Node</li>
-					<li>PHP and WordPress</li>
-					<li>Jekyll and GitHub Pages</li>
-					<li>D3</li>
-					<!--<a href="https://twitter.com/brianwmson"><li> {% include icon-twitter.html username=site.twitter_username %}</li></a>-->
+				<ul style="margin-top: 0; list-style: none; padding-left: 0;">
+					<a href="https://twitter.com/brianwmson"><li> {% include icon-twitter.html username=site.twitter_username %}</li></a>
+					<a href="https://github.com/bbgvisualjournalist"><li> {% include icon-github.html username=site.github_username %}</li></a>
 				</ul>
-		  	</div><!--
-		 --><div class="vj__grid__half__small">
-		  		<!--<h3 class="vj__label">ART</h3>-->
-				<ul>
-					<li>Graphic design</li>
-					<li>Information design</li>
-					<li>UX</li>
-					<li>Illustration</li>
-					<li>Portraiture</li>
-					<li>Comic Books</li>
-					<li>Storyboarding</li>
-					<li>Animation</li>
-				</ul>
-		  	</div>
 		  </div>
 		</div>
 
@@ -57,29 +37,31 @@ layout: default
   {% for cat in site.categories_list2 %}
 	  {% assign currentCat = cat.name %}
 	  {% assign currentCatDescription = cat.description %}
-	<section style="border-bottom: 1px dotted #CCC; margin-bottom: 40px; padding-bottom: 20px;">
-		<div class="vj__grid vj__portfolio-grid">
-			<h3 class="vj__kicker">{{ currentCat}} portfolio</h3>
-			<div style="line-height: 1.5; ">
-				<p style="font-size: 18px;">{{ currentCatDescription }}</p>
+	<section style="margin-bottom: 40px;">
+		<div class="vj__grid__full">
+			<h3 class="vj__kicker" style="font-size: 20px; padding-left: 5%; margin-bottom: 15px;">{{ currentCat}} portfolio</h3>
+			<!--<div class="vj__grid ">
+				<div style="line-height: 1.5; ">
+					<p style="font-size: 18px;">{{ currentCatDescription }}</p>
+				</div>
+
+			</div>-->
+
+
+			<div class="vj__grid" style="margin: 0 auto 10px auto;">
+				<a class="vj__featured-post post-link" href=" {{ site.categories[currentCat][0].url | relative_url }}" style=" text-decoration: none;">
+				  {% if site.categories[currentCat][0].image %}
+					<img src="/img/{{ site.categories[currentCat][0].image }}">
+				  {% else %}
+					<img src="https://placehold.it/1280x720">
+				  {% endif %}
+				</a>
+				<a class="vj__featured-post post-link" href=" {{ site.categories[currentCat][0].url | relative_url }}" style=" text-decoration: none;">
+					<h1 class="balance-text" style="font-size: 42px;">{{ site.categories[currentCat][0].title }}</h1>
+				</a>
+				<p style="">{{ site.categories[currentCat][0].excerpt | strip_html }}</p>
 			</div>
-
 		</div>
-
-
-	<div class="vj__grid" style="margin: 0 auto 10px auto;">
-		<a class="vj__featured-post post-link" href=" {{ site.categories[currentCat][0].url | relative_url }}" style=" text-decoration: none;">
-		  {% if site.categories[currentCat][0].image %}
-			<img src="/img/{{ site.categories[currentCat][0].image }}">
-		  {% else %}
-			<img src="https://placehold.it/1280x720">
-		  {% endif %}
-		</a>
-		<a class="vj__featured-post post-link" href=" {{ site.categories[currentCat][0].url | relative_url }}" style=" text-decoration: none;">
-			<h1 style="font-size: 42px;">{{ site.categories[currentCat][0].title }}</h1>
-		</a>
-		<p style="">{{ site.categories[currentCat][0].excerpt | strip_html }}</p>
-	</div>
 
 
 

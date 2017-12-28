@@ -21,7 +21,7 @@ description_short: > # this means to ignore newlines until "baseurl:"
   Brian Williamson is a graphic artist, interactive developer and designer for VOA. He designs, illustrates, animates and writes code to tell stories.
 
 description_link: > # 
-  BRIAN WILLIAMSON (<a href="https://twitter.com/brianwmson">@BrianWmson</a>) is a graphic artist, interactive developer and designer for Voice of America. He designs, illustrates, animates and writes code to tell stories. VOA provides objective news and information in 45 languages to over 235 million people around the world every week. For 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
+  BRIAN WILLIAMSON is a graphic artist, interactive developer and designer for Voice of America. He designs, illustrates, animates and writes code to tell stories. VOA provides objective news and information in 45 languages to over 235 million people around the world every week. For 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
 
 categories_list: ['interactive', 'design', 'comics', 'illustration', 'animation', 'video']
 
@@ -43,6 +43,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # http://projects.voanews.com/circumvention #localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: "@BrianWmson"
+github_username: "bbgvisualjournalist"
 
 development_mode: true
 development_warning: This site is currently under active development. There is a lot of lorem ipsum.

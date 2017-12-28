@@ -10,7 +10,19 @@
 		  <nav id="main-nav" role="navigation" class="main-menu-nav">
 			<ul id="main-menu" class="sm sm-clean" data-smartmenus-id="14762810590939192">
 
-			{% for my_page in site.pages %}
+  {% for cat in site.categories_list2 %}
+	  {% assign currentCat = cat.name %}
+			  <li id="navSection1"><a 
+
+			   {% if page.category == currentCat %}
+			   	class="current"
+			   {% endif %}
+
+			  href="{{ "/" | relative_url}}{{ currentCat }}">{{ currentCat }}</a></li>
+	{% endfor %}
+
+
+			<!--{% for my_page in site.pages %}
 			 {% unless my_page.exclude_from_nav %}
 			  {% if my_page.title %}
 			  <li id="navSection1"><a 
@@ -23,6 +35,7 @@
 			  {% endif %}
 			  {% endunless %}
 			{% endfor %}
+			-->
 			</ul>
 
 		  </nav>

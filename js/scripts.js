@@ -49,7 +49,7 @@ function showInfo(data) {
 
 $(document).ready(function(){
 	logger("Ready");
-
+	balanceText();
 	// ===================
 	// |  Dropdown menu  |
 	// ===================
