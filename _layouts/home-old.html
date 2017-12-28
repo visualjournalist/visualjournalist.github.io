@@ -3,18 +3,68 @@ layout: default
 ---
 
 <div class="vj__content home">
+  <div class="vj__grid__full" style="padding-top: 35px;">
+	
+		<div class="vj__grid" style="margin-bottom: 4px;">
+	
+	{% unless page.content == '' %}
+			<div style="padding: 20px 5%; background-color: #F1F1F1; line-height: 1.6; font-size: 18px; text-align: center;">
+				<p>{{ page.content }}</p>
+			</div>
+	{% endunless %}
+
+		</div>
+
+	<div class="vj__grid" style="margin: 0 auto 40px auto;">
+		<a class="vj__featured-post post-link" href=" {{ site.posts[0].url | relative_url }}" style=" text-decoration: none;">
+		  {% if site.posts[0].image %}
+			<img src="/img/{{ site.posts[0].image }}">
+		  {% else %}
+			<img src="https://placehold.it/1280x720">
+		  {% endif %}
+		</a>
+		<a class="vj__featured-post post-link" href=" {{ site.posts[0].url | relative_url }}" style=" text-decoration: none;">
+			<h1 style="font-size: 42px;">
+			  {{ site.posts[0].title }}
+			</h1>
+		</a>
+		<p style="">{{ site.posts[0].excerpt | strip_html }}</p>
+	</div>
+
+
+	<div class="vj__grid vj__portfolio-grid">
+	  <!--
+	  {% assign counter = 0 %}
+	  {% for post in site.posts %}
+		{% if counter > 0 %}
+		 --><div class="vj__grid__element vj__portfolio-grid__item">
+			<!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+				<a class="post-link" href="{{ post.url | relative_url }}">
+				{% if post.thumbnail %}
+				  <img src="/img/{{ post.thumbnail }}">
+				{% else %}
+				  <img src="https://placehold.it/640x360">
+				{% endif %}
+				  <h2>{{ post.title | escape }}</h2>
+				</a>
+		 	</div><!--
+		  {% endif %}
+		  {% assign counter = counter | plus: 1 %}
+	  {% endfor %}
+	  -->
+	</div>
 
 
 
 
 <!-- category specific sections -->
-<footer class="vj__footer" style="padding-bottom: 0; padding-top: 70px;">
+<footer class="vj__footer">
 
   <div class="vj__grid__full" style="">
 	<div class="vj__grid">
 
 		<div class="vj__grid__two-thirds wide-right vj__rule ">
-			<!--<h3 class="vj__label">About</h3>-->
+			<h3 class="vj__label">About</h3>
 			<img src="/img/portrait__brian-williamson.jpg" style="float: left; margin-right: 10px; width: 80px;">
 			<p style="margin-top: 0; font-size: 14px; line-height: 1.4;">{{ site.description_link }} | <a href="/about/">Read more</a></p>
 		</div>
@@ -22,7 +72,7 @@ layout: default
 		<div class="vj__grid__one-third" style="margin-right: 0;">
 		  <div class="voa__grid">
 		  	<div class="vj__grid__half__small">
-		  		<!--<h3 class="vj__label">CODING</h3>-->
+		  		<h3 class="vj__label">CODING</h3>
 				<ul>
 					<li>HTML</li>
 					<li>SASS/CSS</li>
@@ -34,7 +84,7 @@ layout: default
 				</ul>
 		  	</div><!--
 		 --><div class="vj__grid__half__small">
-		  		<!--<h3 class="vj__label">ART</h3>-->
+		  		<h3 class="vj__label">ART</h3>
 				<ul>
 					<li>Graphic design</li>
 					<li>Information design</li>
@@ -54,14 +104,17 @@ layout: default
 
 </footer>
 
-  {% for cat in site.categories_list2 %}
-	  {% assign currentCat = cat.name %}
-	  {% assign currentCatDescription = cat.description %}
-	<section style="border-bottom: 1px dotted #CCC; margin-bottom: 40px; padding-bottom: 20px;">
+
+  {% for cat in site.categories_list %}
+	  {% assign currentCat = cat %}
+	<section style="margin-bottom: 40px;">
 		<div class="vj__grid vj__portfolio-grid">
 			<h3 class="vj__kicker">{{ currentCat}} portfolio</h3>
 			<div style="line-height: 1.5; ">
-				<p style="font-size: 18px;">{{ currentCatDescription }}</p>
+				<p style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
 			</div>
 
 		</div>

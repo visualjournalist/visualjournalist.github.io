@@ -2,7 +2,7 @@
 layout: post
 title:  "Internet Freedom Project"
 date:   2017-03-01
-categories: design illustration
+categories: design
 image: 2017-03-01__internet-freedom.jpg
 thumbnail: 2017-03-01__internet-freedom--640x360.jpg
 credit: Brian Williamson | VOA

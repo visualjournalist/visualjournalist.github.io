@@ -16,9 +16,28 @@
 title: Visual Journalist | Brian Williamson’s portfolio site for design, graphics, illustrations and videos
 description: > # this means to ignore newlines until "baseurl:"
   BRIAN WILLIAMSON is a graphic artist, interactive developer and designer for Voice of America. He designs, illustrates, animates and writes code to tell stories. VOA provides objective news and information in 45 languages to over 235 million people around the world every week. For 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
+title_short: Visual Journalist | Brian Williamson’s portfolio | 
+description_short: > # this means to ignore newlines until "baseurl:"
+  Brian Williamson is a graphic artist, interactive developer and designer for VOA. He designs, illustrates, animates and writes code to tell stories.
 
 description_link: > # 
   BRIAN WILLIAMSON (<a href="https://twitter.com/brianwmson">@BrianWmson</a>) is a graphic artist, interactive developer and designer for Voice of America. He designs, illustrates, animates and writes code to tell stories. VOA provides objective news and information in 45 languages to over 235 million people around the world every week. For 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
+
+categories_list: ['interactive', 'design', 'comics', 'illustration', 'animation', 'video']
+
+categories_list2:
+  - name: interactive
+    description: BRIAN WILLIAMSON started as a newspaper page designer at the St. Louis Post-Dispatch, designing everything from the front page to business and feature pages. At some point he transitioned to designing interactive content for the newspaper. He is comfortable working with HTML, CSS, JavaScript, Node, JSON and creating data visualizations with D3 and Leaflet.
+  - name: design
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  - name: comics
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  - name: illustration
+    description: BRIAN WILLIAMSON creates conceptual illustrations, portraits, infographics and comics. He's illustrated everything from abstract stories on the economy to practical how-to stories on exercise. His illustrations have been featured in newspapers around the country. He is equally comfortable working with dirty, real-world paint and the virtual equivalent. 
+  - name: animation
+    description: BRIAN WILLIAMSON creates simple animations to help introduce new tools, explain abstract concepts and tell stories. He can write a script, storyboard it, create the assets and produce the final animation. He also shoots and edits short interview clips together with the animations to help tell the story. 
+  - name: video
+    description: BRIAN WILLIAMSON creates short videos to tell stories, help introduce new tools, promote new projects and provide project retrospectives. He can shoots and edits short interviews, write a script, storyboard it, and produce the final video.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # http://projects.voanews.com/circumvention #localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
