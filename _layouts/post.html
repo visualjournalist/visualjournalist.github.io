@@ -11,7 +11,7 @@ layout: default
 				<h3 class="" style="float: right; color: #CCC; font-weight: normal;">{{ page.date | date: "%B %-d, %Y" }}</h3>
 
 
-				<h1 class="vj__title">{{ page.title }}</h1>
+				<h1 class="vj__title balance-text ">{{ page.title }}</h1>
 
 				</header>
 
@@ -36,11 +36,11 @@ layout: default
 		</div>{% endif %}
 	  {% if page.image and page.link-project %}</a>{% endif %}
 	{% else %}
-	  {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
+	  {% if page.image and page.link-project %}<div class="vj__image-link-highlight-box"><a href="{{ page.link-project }}"/>{% endif %}
 		{% if page.image %}
 			<img src="{{ site.url }}/img/{{ page.image }}" alt="{{ page.alt }}" />
 		{% endif %}
-	  {% if page.image and page.link-project %}</a>{% endif %}
+	  {% if page.image and page.link-project %}<div class="vj__image-link-highlight-box__promo"><h3>Explore the project</h3><div class="vj__image-link-highlight-box__circle"></div></div></a></div>{% endif %}
 
 	  	<div class="vj__grid">
 			<p class="vj__credit">{{ page.credit }}</p>
