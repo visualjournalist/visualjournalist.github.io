@@ -39,7 +39,7 @@ layout: default
 	  {% assign currentCatDescription = cat.description %}
 	<section style="margin-bottom: 40px;">
 		<div class="vj__grid__full">
-			<h3 class="vj__kicker" style="font-size: 20px; padding-left: 5%; margin-bottom: 15px;">{{ currentCat}} portfolio</h3>
+			<h3 class="vj__kicker" style="font-size: 20px; padding-left: 5%; margin-bottom: 15px;"><a href="{{ "/" | relative_url}}{{ currentCat }}">{{ currentCat}} portfolio</a></h3>
 			<!--<div class="vj__grid ">
 				<div style="line-height: 1.5; ">
 					<p style="font-size: 18px;">{{ currentCatDescription }}</p>
@@ -62,7 +62,6 @@ layout: default
 				</div>
 			</div>
 		</div>
-
 
 
 	<div class="vj__grid vj__portfolio-grid">
