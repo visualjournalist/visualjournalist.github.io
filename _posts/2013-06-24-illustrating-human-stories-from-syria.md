@@ -6,6 +6,7 @@ categories: illustration
 image: 2013-06-24__syria-stories__cover.jpg
 thumbnail: 2013-06-24__syria-stories__cover--640x360.jpg
 credit: Brian Williamson | MBN
+alt: Six illustrated cartoon figures collaged against a photo from Syria.
 youtube: jUCB15Ator0
 link-project: http://www.syriastories.com/
 

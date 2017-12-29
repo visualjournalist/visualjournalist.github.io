@@ -7,6 +7,7 @@ image: gao_yu.jpg
 thumbnail: gao_yu--640x360.jpg
 vertical: true
 credit: Brian Williamson | Radio Free Asia
+alt: Illustrated portrait of Gao Yu with a red hand covering her mouth while her hands type on a keyboard.
 link-project:  "http://www.blurb.com/books/6362951-it-s-not-ok-softcover"
 ---
 

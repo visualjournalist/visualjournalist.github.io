@@ -52,9 +52,9 @@ layout: default
 				<div class="vj__featured-post">
 					<a class="vj__featured-post post-link" href=" {{ site.categories[currentCat][0].url | relative_url }}" style=" text-decoration: none;">
 					  {% if site.categories[currentCat][0].image %}
-						<img src="/img/{{ site.categories[currentCat][0].image }}">
+						<img src="/img/{{ site.categories[currentCat][0].image }}" alt="{{ site.categories[currentCat][0].alt }}" />
 					  {% else %}
-						<img src="https://placehold.it/1280x720">
+						<img src="https://placehold.it/1280x720" alt="{{ site.categories[currentCat][0].alt }}" />
 					  {% endif %}
 						<h2 class="balance-text vj__featured-post__title" style="">{{ site.categories[currentCat][0].title }}</h2>
 					</a>

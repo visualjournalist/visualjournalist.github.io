@@ -26,7 +26,7 @@ layout: default
 				
 				<a class="post-link" href=" {{ site.categories[page.category][0].url | relative_url }}" style=" text-decoration: none;">
 				  {% if site.categories[page.category][0].image %}
-					<img src="/img/{{ site.categories[page.category][0].image }}">
+					<img src="/img/{{ site.categories[page.category][0].image }}" alt="{{ site.categories[page.category][0].alt }}">
 				  {% else %}
 					<img src="https://placehold.it/1280x720">
 				  {% endif %}

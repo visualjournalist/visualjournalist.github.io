@@ -29,7 +29,7 @@ layout: default
 
 	{% if page.vertical %}
 	  {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
-		{% if page.image %}<div class="vj__medium-half"><img class="" alt="" src="{{ site.url }}/img/{{ page.image }}" style="" />
+		{% if page.image %}<div class="vj__medium-half"><img class="" src="{{ site.url }}/img/{{ page.image }}" alt="{{ page.alt }}" />
 		<div class="vj__grid">
 			<p class="vj__credit">{{ page.credit }}</p>
 		</div>
@@ -38,8 +38,8 @@ layout: default
 	{% else %}
 	  {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
 		{% if page.image %}
-			<img alt="" src="{{ site.url }}/img/{{ page.image }}" style="" />
-
+			<img src="{{ site.url }}/img/{{ page.image }}" alt="{{ page.alt }}" />
+			yyy
 		{% endif %}
 	  {% if page.image and page.link-project %}</a>{% endif %}
 

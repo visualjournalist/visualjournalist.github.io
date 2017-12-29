@@ -6,6 +6,7 @@ categories: illustration
 image: 2014-08-18__wild-pigeon.jpg
 credit: Brian Williamson | Radio Free Asia
 thumbnail: 2014-08-18__wild-pigeon--640x360.jpg
+alt: Illustration of a pigeon trying to escape from a tangled web of strings.
 youtube: MYDfi70V49Y
 ---
 

@@ -5,6 +5,7 @@ date:   2016-08-01
 categories: design
 image: 2016-08-01__redesigning-bbg-gov-website.jpg
 thumbnail: 2016-08-01__redesigning-bbg-gov-website--640x360.jpg
+alt: Screenshot of the redesigned bbg.gov
 link-project:  "https://bbg.gov"
 ---
 
