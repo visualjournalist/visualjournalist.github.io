@@ -22,19 +22,21 @@ layout: default
 
 
 		<div class="vj__grid" style="margin: 0 auto 10px auto;">
-			<a class="vj__featured-post post-link" href=" {{ site.categories[page.category][0].url | relative_url }}" style=" text-decoration: none;">
-			  {% if site.categories[page.category][0].image %}
-				<img src="/img/{{ site.categories[page.category][0].image }}">
-			  {% else %}
-				<img src="https://placehold.it/1280x720">
-			  {% endif %}
-			</a>
-			<a class="vj__featured-post post-link" href=" {{ site.categories[page.category][0].url | relative_url }}" style=" text-decoration: none;">
-				<h1 style="font-size: 42px;">
-				  {{ site.categories[page.category][0].title }}
-				</h1>
-			</a>
-			<p style="">{{ site.categories[page.category][0].excerpt | strip_html }}</p>
+			<div class="vj__featured-post">
+				
+				<a class="post-link" href=" {{ site.categories[page.category][0].url | relative_url }}" style=" text-decoration: none;">
+				  {% if site.categories[page.category][0].image %}
+					<img src="/img/{{ site.categories[page.category][0].image }}">
+				  {% else %}
+					<img src="https://placehold.it/1280x720">
+				  {% endif %}
+
+					<h2 class="vj__featured-post__title">
+					  {{ site.categories[page.category][0].title }}
+					</h2>
+				</a>
+				<p style="">{{ site.categories[page.category][0].excerpt | strip_html }}</p>
+			</div>
 		</div>
 
 
@@ -56,9 +58,9 @@ layout: default
 				{% else %}
 				  <img src="https://placehold.it/640x360">
 				{% endif %}
-				  <h2>
+				  <h3>
 					{{ post.title | escape }}
-				  </h2>
+				  </h3>
 				</a>
 			  </div><!--
 		  {% endif %}
