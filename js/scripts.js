@@ -50,6 +50,7 @@ function showInfo(data) {
 $(document).ready(function(){
 	logger("Ready");
 	balanceText();
+	//showTweet();
 	// ===================
 	// |  Dropdown menu  |
 	// ===================
@@ -62,22 +63,40 @@ $(document).ready(function(){
 
 	$( "#menuButton" ).click(function() {
 		logger("clicked menu toggle")
-	  $( ".main-menu-nav").toggle();
+		$( ".main-menu-nav").toggle();
 	});
 
 	$( ".main-menu-nav a").not(".has-submenu").click(function() {
-	  $( ".main-menu-nav").hide();
+		$( ".main-menu-nav").hide();
 	});
 	$( ".vj__content" ).click(function() {
-	  $( ".main-menu-nav").hide();
+		$( ".main-menu-nav").hide();
 	});
 
 
 	$("#siteWarning").click(function() {
-	  $( "#siteWarning").hide();
+				$( "#siteWarning").hide();
 	});
 
+	/*
+	function showTweet(){
+		$( ".tweet" ).each(function( index ) {
+			var tweet = $(this)[0];
+			var id = $(this).data("tweet");
+			console.log("test");
 
+			twttr.widgets.createTweet(
+			  id, tweet, 
+				{
+					conversation : 'none',    // or all
+					cards        : 'visible',  // or visible 
+					//linkColor    : '#900', // default is blue
+					theme        : 'light'    // or dark
+				})
+
+		});
+	}
+	*/
 
 	/*
 	// ================================================

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<!--<script sync src="https://platform.twitter.com/widgets.js"></script>-->
 <div class="vj__content home">
 
 
@@ -49,17 +49,17 @@ layout: default
 
 
 			<div class="vj__grid" style="margin: 0 auto 10px auto;">
-				<a class="vj__featured-post post-link" href=" {{ site.categories[currentCat][0].url | relative_url }}" style=" text-decoration: none;">
-				  {% if site.categories[currentCat][0].image %}
-					<img src="/img/{{ site.categories[currentCat][0].image }}">
-				  {% else %}
-					<img src="https://placehold.it/1280x720">
-				  {% endif %}
-				</a>
-				<a class="vj__featured-post post-link" href=" {{ site.categories[currentCat][0].url | relative_url }}" style=" text-decoration: none;">
-					<h1 class="balance-text" style="font-size: 42px;">{{ site.categories[currentCat][0].title }}</h1>
-				</a>
-				<p style="">{{ site.categories[currentCat][0].excerpt | strip_html }}</p>
+				<div class="vj__featured-post">
+					<a class="vj__featured-post post-link" href=" {{ site.categories[currentCat][0].url | relative_url }}" style=" text-decoration: none;">
+					  {% if site.categories[currentCat][0].image %}
+						<img src="/img/{{ site.categories[currentCat][0].image }}">
+					  {% else %}
+						<img src="https://placehold.it/1280x720">
+					  {% endif %}
+						<h2 class="balance-text vj__featured-post__title" style="">{{ site.categories[currentCat][0].title }}</h2>
+					</a>
+					<p style="">{{ site.categories[currentCat][0].excerpt | strip_html }}</p>
+				</div>
 			</div>
 		</div>
 
@@ -78,9 +78,9 @@ layout: default
 			{% else %}
 			  <img src="https://placehold.it/640x360">
 			{% endif %}
-			  <h2>
+			  <h3>
 				{{ post.title | escape }}
-			  </h2>
+			  </h3>
 			</a>
 		  </div><!--
 	  {% endif %}
@@ -88,6 +88,11 @@ layout: default
 	  {% endfor %}
 	  -->
 	</div>
+	<!--<div class="vj__grid__full">
+		<div class="issue__update tweet">
+			<div class="tweet" data-tweet=""></div>
+		</div>
+	</div>-->
 	</section>
   {% endfor %}
 
