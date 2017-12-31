@@ -5,4 +5,4 @@ category: design
 permalink: /design/
 ---
 
-Lorem ipsum dolor design description sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+BRIAN WILLIAMSON started as a page designer at the St. Louis Post-Dispatch, designing everything from the front page to business and feature pages. He now applies that background in content driven design to online stories and features. He is comfortable working with HTML, CSS, JavaScript, Node, JSON and creating data visualizations with D3 and Leaflet.
