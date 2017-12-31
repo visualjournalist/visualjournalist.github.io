@@ -6,4 +6,4 @@ permalink: /video/
 
 ---
 
-BRIAN WILLIAMSON creates short videos to tell stories, help introduce new tools, promote new projects and provide project retrospectives. He can shoots and edits short interviews, write a script, storyboard it, and produce the final video.
+BRIAN WILLIAMSON creates simple animations and videos to help introduce new tools, explain abstract concepts and tell stories. He can write a script, storyboard it, create the assets and produce the final animation. He also shoots and edits short interview clips together with the animations to help tell the story.

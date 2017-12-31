@@ -2,7 +2,7 @@
 layout: post
 title:  "Using mobile usability testing to improve U.S. international media"
 date:   2013-04-23
-categories: design video
+categories: video
 image: 2013-04-23__usability-testing.jpg
 thumbnail: 2013-04-23__usability-testing--640x360.jpg
 youtube: HdExOj_b9Ts

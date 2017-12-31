@@ -2,7 +2,7 @@
 layout: post
 title:  "How far do pro athletes run during a match?"
 date:   2014-07-06
-categories: animation
+categories: video
 image: 2014-07-06__pro-athletes-running.jpg
 thumbnail: 2014-07-06__pro-athletes-running--640x360.jpg
 credit: Brian Williamson | VOA

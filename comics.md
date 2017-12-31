@@ -4,4 +4,4 @@ title: Comics
 category: comics
 permalink: /comics/
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+BRIAN WILLIAMSON has used comics journalism to help tell the first-person stories of elephant poachers, the story of a woman who married an ISIS fighter, as well as weaving comic book vignettes into a traditional long form story about man caught up in an FBI sting. He has also found comics an ideal medium for helping to provide simplified explanations for complex technologies. 
