@@ -98,6 +98,15 @@
 		}
 	}
 
+	.vj__grid__full {
+		&.vj__border-sides {
+			@media only screen and (min-width: $media__large) {
+				border-right: 1px solid #CCC;
+				border-left: 1px solid #CCC;
+			}
+		}
+	}
+
 	.vj__portfolio-grid {
 		&.vj__grid {
 			@media only screen and (max-width: $media__small) {

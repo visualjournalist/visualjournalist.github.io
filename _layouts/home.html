@@ -10,7 +10,7 @@ layout: default
 <!-- category specific sections -->
 <footer class="vj__footer" style="padding-bottom: 0; padding-top: 70px;">
 
-  <div class="vj__grid__full" style="">
+  <div class="vj__grid__full" style="margin-bottom: 0;">
 	<div class="vj__grid">
 
 		<div class="vj__grid__two-thirds wide-right vj__rule ">
@@ -21,11 +21,19 @@ layout: default
 
 		<div class="vj__grid__one-third" style="margin-right: 0;">
 		  <div class="voa__grid">
+		  	<div style="vertical-align: bottom;">
+		  		<a href="/sketchbook/">
+			  		<img src="img/sketchbook.png" style="float: left; margin-right: 10px; width: 33%; max-width: 90px;">
+					<h4 style="font-family: Arial, sans-serif;">Metro sketchbook</h4>
+		  		</a>
+			  		<p style="font-size: 14px; line-height: 1.4;">A year of surreptitiously drawing people on the Red Line in DC.</p>
+
 		  		<!--<h3 class="vj__label">CODING</h3>-->
-				<ul style="margin-top: 0; list-style: none; padding-left: 0;">
+				<!--<ul style="margin-top: 0; list-style: none; padding-left: 0;">
 					<a href="https://twitter.com/brianwmson"><li> {% include icon-twitter.html username=site.twitter_username %}</li></a>
 					<a href="https://github.com/bbgvisualjournalist"><li> {% include icon-github.html username=site.github_username %}</li></a>
-				</ul>
+				</ul>-->
+				</div>
 		  </div>
 		</div>
 
@@ -37,8 +45,8 @@ layout: default
   {% for cat in site.categories_list %}
 	  {% assign currentCat = cat.name %}
 	  {% assign currentCatDescription = cat.description %}
-	<section style="margin-bottom: 40px;">
-		<div class="vj__grid__full">
+	<section style="">
+		<div class="vj__grid__full vj__border-sides" style="padding-top: 20px; margin-bottom: 0; padding-bottom: 20px;">
 			<h3 class="vj__kicker" style="font-size: 20px; padding-left: 5%; margin-bottom: 15px;"><a href="{{ "/" | relative_url}}{{ currentCat }}">{{ currentCat}} portfolio</a></h3>
 			<!--<div class="vj__grid ">
 				<div style="line-height: 1.5; ">
@@ -63,7 +71,7 @@ layout: default
 			</div>
 		</div>
 
-		<div class="vj__grid__full">
+		<div class="vj__grid__full vj__border-sides" style="padding-bottom: 40px; margin-bottom: 0;">
 				
 			<div class="vj__grid vj__portfolio-grid">
 		  <!--
