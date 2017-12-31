@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="post vj__grid__full vj__content" itemscope itemtype="http://schema.org/BlogPosting">
 	<section class="vj__section__full-width">
-		  <div class="vj__grid__full">
+		  <div class="vj__grid__full vj__border-sides">
 			<div class="vj__grid" style="margin-bottom: 0;">
 			  
 				<header class="post-header" style="padding-top: 60px;">
@@ -26,7 +26,7 @@ layout: default
 	</div>
 
 {% elsif page.image %}
-
+	<div class="vj__grid__full vj__border-sides">
 	{% if page.vertical %}
 	  {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
 		{% if page.image %}<div class="vj__medium-half"><img class="" src="{{ site.url }}/img/{{ page.image }}" alt="{{ page.alt }}" />
@@ -45,12 +45,12 @@ layout: default
 	  	<div class="vj__grid">
 			<p class="vj__credit">{{ page.credit }}</p>
 		</div>
-
   {% endif %}
+	</div>
 
 {% endif %}
 
-	<div class="vj__grid__full">
+	<div class="vj__grid__full vj__border-sides">
 		<div class="post-content vj__grid" itemprop="articleBody">
 			<div class="vj__story">
 			  {{ content }}
@@ -71,6 +71,8 @@ layout: default
 -->
 
 {% if page.link-project or page.link-code or page.link-blogpost or page.link-video %}
+<div class="vj__grid__full vj__border-sides">
+	
 	<div class="vj__grid vj__related-links">
 		<ul class="">
 		{% if page.link-project %}<li><a href="{{ page.link-project }}">View the project</a></li>{% endif %}
@@ -81,11 +83,12 @@ layout: default
 		{% if page.link-pdf %}<li><a href="{{ page.link-pdf }}">Download the PDF</a></li>{% endif %}
 		</ul>
 	</div>
+</div>
 {% endif %}
 
 
 
-	<div class="vj__grid__full vj__recent-projects" style="margin-top: 40px;">
+	<div class="vj__grid__full vj__recent-projects  vj__border-sides" style="padding-top: 40px;">
 
 		<div class="vj__grid">
 			<h3 class="vj__label" style="margin-bottom: 0;">Recent projects</h3>
