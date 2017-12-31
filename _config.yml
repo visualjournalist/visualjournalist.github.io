@@ -37,7 +37,7 @@ categories_list:
     totalStories: 4
     description: BRIAN WILLIAMSON creates conceptual illustrations, portraits, infographics and comics. He's illustrated everything from abstract stories on the economy to practical how-to stories on exercise. His illustrations have been featured in newspapers around the country. He is equally comfortable working with dirty, real-world paint and the virtual equivalent. 
   - name: video
-    totalStories: 3
+    totalStories: 4
     description: BRIAN WILLIAMSON creates short videos to tell stories, help introduce new tools, promote new projects and provide project retrospectives. He can shoots and edits short interviews, write a script, storyboard it, and produce the final video.
 
 baseurl: "" # the subpath of your site, e.g. /blog
