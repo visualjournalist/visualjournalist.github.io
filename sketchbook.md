@@ -4,6 +4,10 @@ title: Sketchbook
 permalink: /sketchbook/
 exclude_from_nav: true
 ---
+<div style="text-align: center; margin-top: 30px;">
+	<h1 style="font-size: 48px; margin-bottom: 10px;">2017 Red Line portraits</h1>
+	<h4 style="font-family: Arial, sans-serif;">A sketchbook of people surreptitiously drawn on Washington DC's Metro.</h4>
+</div>
 
 <div class="vj__grid__full vj__comicbook" style="margin-top: 30px;">
 
