@@ -70,7 +70,7 @@ layout: default
 		  {% assign counter = 0 %}
 		  {% for post in site.categories[currentCat] %}
 		  	{% assign loopNumber = cat.totalStories + 1 %}
-			{% if counter >0 and counter < loopNumber %}
+			{% if counter > 0 and counter < loopNumber %}
 			{% if cat.totalStories == 3 %}
 				{% assign gridSizeClass = "vj__grid__one-half" %}
 			{% else %}

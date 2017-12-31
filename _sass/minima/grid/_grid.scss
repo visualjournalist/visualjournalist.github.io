@@ -12,6 +12,75 @@
 	padding: 0;
 }
 
+.vj__comicbook {
+
+	.vj__comicbook__page {
+		border: 1px solid #CCC;
+		margin-right: 0 !important;
+		padding: 10px;
+	}
+
+	.vj__comicbook__page:nth-child(even) {
+		border-left: none;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f2f2+0,ffffff+9 */
+		background: #f2f2f2; /* Old browsers */
+		background: -moz-linear-gradient(left, #f2f2f2 0%, #ffffff 9%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, #f2f2f2 0%,#ffffff 9%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, #f2f2f2 0%,#ffffff 9%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+		@media only screen and (min-width: $media__medium) {
+			margin-bottom: 30px;
+		}
+	}
+
+	img {
+		border: 3px solid #000;
+
+		@media only screen and (min-width: $media__large) {
+			border: 4px solid #000;
+		}
+	}
+
+	.vj__comic__one-half,
+	.vj__comic__one-third {
+		margin: 0 auto;
+		padding: 0;
+		vertical-align: top;
+		width: 100%;
+	}
+
+	.vj__comic__one-half {
+		@media only screen and (min-width: $media__small) {
+			display: inline-block;
+			margin-right: 1%;
+			vertical-align: top;
+			width: 49.5%;
+
+			&:nth-child(2n) {
+				margin-right: 0;
+			}
+
+		}
+
+	}
+	.vj__comic__one-third {
+		@media only screen and (min-width: $media__small) {
+			display: inline-block;
+			margin-right: 1%;
+			vertical-align: top;
+			width: 32.5%;
+
+			&:nth-child(3n) {
+				margin-right: 0%;
+			}
+
+		}
+	}
+
+}
+
+
 .vj__grid:before,
 .vj__grid:after,
 .vj__grid__full:before,
@@ -88,9 +157,9 @@
 
 	.vj__grid__one-third {
 		display: inline-block;
-		margin-right: 2%;
+		margin-right: 1%;
 		vertical-align: top;
-		width: 31%;
+		width: 32.5%;
 	}
 	.vj__grid__one-third:nth-child(3n) {
 		margin-right: 0%;
@@ -99,7 +168,7 @@
 		display: inline-block;
 		margin-right: 2%;
 		vertical-align: top;
-		width: 65%;
+		width: 64%;
 	}
 }
 
