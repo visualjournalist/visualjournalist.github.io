@@ -16,14 +16,21 @@
 	}
 
 	h1,
-	h2,
-	h3,
-	h4,
-	h5 {
+	h2, 
+	h3 {
 		font-family: $font__sansDisplay;
 		font-weight: normal;
 		margin: 0;
 	}
+
+	h4,
+	h5 {
+		font-family: $font__sans;
+		font-weight: bold;
+		margin: 0;
+	}
+
+
 
 	strong{
 		font-family: $font__sans;
