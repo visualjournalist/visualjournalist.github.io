@@ -6,7 +6,7 @@ exclude_from_nav: true
 ---
 
 <div class="vj__grid__full" style="margin-top: 30px;">
-	<div class="vj__grid__two-thirds">
+	<div class="vj__grid__two-thirds wide-right vj__rule ">
 
 		<img src="../img/portrait.jpg" alt="Portrait of Brian Williamson hiking on the Appalachian Trail on the bluffs over Harpers Ferry." />
 
