@@ -16,9 +16,10 @@ link-related:  "/interactive/federal-terrorism-prosecutions-graphic"
 
 The story alternates between comic book panels and paragraphs of text to describe Samara's encounter and the FBI sting.
 
-<style type="text/css">div#twitter-widget-0 {margin: 10px auto !important;max-width: 660px !important;}</style>
+<style type="text/css">div#twitter-widget-0 {margin: 10px auto 0 auto!important;max-width: 660px !important;}</style>
 <blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr">The Imam&#39;s Choice: How a Milwaukee cleric’s advice changed the course of an <a href="https://twitter.com/hashtag/FBI?src=hash&amp;ref_src=twsrc%5Etfw">#FBI</a> sting. Read <a href="https://twitter.com/VOANews?ref_src=twsrc%5Etfw">@VOANews</a> exclusive: <a href="https://t.co/HZRcudg01a">https://t.co/HZRcudg01a</a> <a href="https://t.co/4cvrOuBYiD">pic.twitter.com/4cvrOuBYiD</a></p>&mdash; The Voice of America (@VOANews) <a href="https://twitter.com/VOANews/status/931190617203462144?ref_src=twsrc%5Etfw">November 16, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p class="vj__credit">Ailin Li | VOA News</p>
 
 ### RESPONSIBILITIES
 

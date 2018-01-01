@@ -17,7 +17,7 @@
 	<meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
 	<meta property="og:type" content="website" />
 
-	<meta property="og:image" content="http://visualjournali.st/img/{{ page.image | default: 'circumvention.jpg' }}" />
+	<meta property="og:image" content="http://visualjournali.st/img/{{ page.image | default: '2017-11-16__imams-choice.jpg' }}" />
 
 	<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
 	<meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />

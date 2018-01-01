@@ -42,6 +42,12 @@
 		font-family: $font__serif;
 		font-size: 120%;
 		line-height: 1.4;
+
+		&.vj__credit {
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			margin-top: 0;
+		}
 	}
 
 	.vj__story h1,
