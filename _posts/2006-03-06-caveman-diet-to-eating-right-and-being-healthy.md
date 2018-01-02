@@ -10,7 +10,7 @@ alt: Cropped series of comic book panels showing cavemen hunting for food.
 link-project:  "http://visualjournali.st/img/2006-03-06__CaveMan.pdf"
 ---
 
-**Created a comic strip introduction to an article explaining the challenges of actually following a paleo diet.**
+**Created a comic strip introduction for an article explaining the challenges of actually following a paleo diet.**
 
 The intro text used in the comic strip:
 
@@ -26,4 +26,4 @@ The intro text used in the comic strip:
 
 “The hungry people in the village will gladly grill it for you while you tell mythic tales of the hunt. Then, eat all you want - remembering that you must share most of it with those who didn't hunt - while you also eat nuts, roots and other food foraged during your absence. Drink water from the stream or tea made from the local grass.”
 
-—Harry Jackson Jr. | St. Louis Post-Dispatch
+<p class="vj__credit">—Harry Jackson Jr. | St. Louis Post-Dispatch</p>
