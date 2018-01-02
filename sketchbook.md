@@ -2,7 +2,7 @@
 layout: default
 title: Sketchbook
 permalink: /sketchbook/
-image: sketchbook/page-15__r2__1-1.jpg
+image: sketchbook/metro.jpg
 exclude_from_nav: true
 ---
 
