@@ -5,6 +5,7 @@ date:   2017-11-16
 categories: comics
 image: 2017-11-16__imams-choice.jpg
 thumbnail: 2017-11-16__imams-choice--640x360.jpg
+alt: A series of comic book panels.
 credit: Brian Williamson | VOA
 link-project:  "http://projects.voanews.com/imams-choice/"
 link-related:  "/interactive/federal-terrorism-prosecutions-graphic"

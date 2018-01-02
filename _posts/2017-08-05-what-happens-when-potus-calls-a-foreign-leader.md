@@ -11,10 +11,8 @@ link-project:  "http://projects.voanews.com/leaked-transcripts/"
 
 **There have been a series of embarrassing leaks of private conversations between President Trump and foreign leaders. Here's a graphic explaining how phone calls between POTUS and foreign leaders have traditionally been handled and kept private.**
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 <a href="{{ page.link-project }}"><img src="/img/2017-08-05__leaked-transcript__sketch2.jpg" alt="pencil sketch of a diagram showing a person in the White House passing information down to federal agencies." class="vj__half-column" /></a>
 
 ### RESPONSIBILITIES
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I spoke with the reporter on the phone to outline the process. I emailed him a quick sketch to see if I understood what he was describing. We discussed clarifications and made edits as needed. While he revised the text, I worked on creating the drawings and setting up the HTML and CSS. By the end of the night we had a simple graphic to accompany a longer story. 

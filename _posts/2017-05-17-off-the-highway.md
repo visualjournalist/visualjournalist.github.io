@@ -9,10 +9,12 @@ credit: Deepak Dobhal | VOA News
 link-project:  "http://projects.voanews.com/off-the-highway/"
 ---
 
-**VOA reporters traveled to a stretch of rural counties along the upper Mississippi River that switched from supporting Democrat Barack Obama in 2012 to backing Republican Donald Trump in 2016. They spoke to farmers and carpenters, factory workers and retirees in these working and middle class communities.**
+**VOA reporter Deepak Dobhal traveled to a stretch of rural counties along the upper Mississippi River that switched from supporting Democrat Barack Obama in 2012 to backing Republican Donald Trump in 2016. He spoke to farmers and carpenters, factory workers and retirees in these working and middle class communities.**
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This series explore the feelings and frustrations of people living across midwest, exploring thoughts on jobs, immigration, the media, religion, class and race.
+
+The series was eventually [expanded](https://projects.voanews.com/off-the-highway/archive/) to include reports from Kansas, Nebraska and Louisiana. 
 
 ### RESPONSIBILITIES
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I designed, coded and setup a microsite for the project to collect the text, photos, maps, and videos. I also set up the project so that it could be easily translated into 12 additional languages, including [Khmer](https://projects.voanews.com/off-the-highway/km/), [Pashto](https://projects.voanews.com/off-the-highway/deewa/) and [Russian](https://projects.voanews.com/off-the-highway/ru/).

@@ -5,6 +5,7 @@ date:   2017-11-16
 categories: interactive
 image: 2017-11-16__imams-choice-graphic.jpg
 thumbnail: 2017-11-16__imams-choice-graphic--640x360.jpg
+alt: A screenshot of a data visualization showing federal terrorism prosecutions as a series of colored squares.
 credit: Brian Williamson | VOA
 link-project:  "http://projects.voanews.com/imams-choice/database/"
 link-related:  "/comics/imams-choice"
@@ -20,6 +21,6 @@ Hamzeh’s lawyers say the FBI entrapped him, using informants to entice him to 
 
 Using a [database](https://github.com/firstlookmedia/trial-and-terror-data/) created by Trevor Aaronson and Margot Williams, I built an interactive graphic for exploring the prosecutions. Users can filter the cases based on stings, informants, different charges and alleged terrorist group affiliations, and showing the number of prosecutions for each state. 
 
-Each prosecution is represented a single square. The squares are colored according to the selected filter. Users can tap on individual prosecutions to read short summaries of the case.
+Each prosecution is represented a single square. The squares are colored according to the selected filter. Users can tap on individual prosecutions to read short summaries about each case.
 
 
