@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Sketchbook
+title: Sketchbook — Red Line portraits
 permalink: /sketchbook/
 image: sketchbook/metro.jpg
 exclude_from_nav: true
+excerpt: Selected pages from a sketchbook of people surreptitiously drawn on Washington DC's Metro.
 ---
 
 <article class="post">
