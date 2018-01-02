@@ -9,7 +9,7 @@
 	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/retina_icon.png">
 
 	<!-- for Google -->
-	<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+	<meta name="description" content="{{ page.excerpt | default: site.description_short | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 	<meta name="keywords" content="visual journalism, illustration, animation, data visualization, video, front-end development, JavaScript, HTML" />
 	<meta name="author" content="Brian Williamson" />
 
@@ -20,7 +20,7 @@
 	<meta property="og:image" content="http://visualjournali.st/img/{{ page.image | default: '2017-11-16__imams-choice.jpg' }}" />
 
 	<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
-	<meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
+	<meta property="og:description" content="{{ page.excerpt | default: site.description_short | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
 
 	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 
