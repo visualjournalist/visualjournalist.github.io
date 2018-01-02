@@ -1,10 +1,19 @@
 ---
-layout: page
+layout: default
 title: Sketchbook
 permalink: /sketchbook/
+image: sketchbook/page-15__r2__1-1.jpg
 exclude_from_nav: true
 ---
-<div style="text-align: center; margin-top: 30px;">
+
+<article class="post">
+<div class="vj__grid__full">
+	<div class="vj__grid">
+
+	  <div class="post-content">
+
+
+<div style="text-align: center; margin-top: 60px;">
 	<h1 style="font-size: 48px; margin-bottom: 10px;">Red Line portraits</h1>
 	<h4 style="font-weight: normal;">Selected pages from a sketchbook of people surreptitiously drawn on Washington DC's Metro.</h4>
 </div>
@@ -517,3 +526,9 @@ exclude_from_nav: true
 
 
 </div>
+
+
+	  </div>
+	</div>
+</div>
+</article>
