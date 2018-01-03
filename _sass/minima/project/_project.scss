@@ -1,13 +1,18 @@
 // Put project-specific CSS here.
 
 .vj__project {
-	.vj__credit {
+	.vj__credit,
+	.vj__cutline {
 		color: #999;
 		font-family: Arial, sans-serif;
 		font-size: 90%;
 		margin-top: 5px;
 		margin-bottom: 30px;
 		text-align: right;
+	}
+
+	.vj__cutline {
+		text-align: left;
 	}
 
 	.vj__featured-post {

@@ -21,6 +21,6 @@ Hamzeh’s lawyers say the FBI entrapped him, using informants to entice him to 
 
 Using a [database](https://github.com/firstlookmedia/trial-and-terror-data/) created by Trevor Aaronson and Margot Williams, I built an interactive graphic for exploring the prosecutions. Users can filter the cases based on stings, informants, different charges and alleged terrorist group affiliations, and showing the number of prosecutions for each state. 
 
-Each prosecution is represented a single square. The squares are colored according to the selected filter. Users can tap on individual prosecutions to read short summaries about each case.
+Each prosecution is represented by a single square. The squares are colored according to the selected filter. Users can tap on individual prosecutions to a read short summary of each case.
 
 

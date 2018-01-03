@@ -19,6 +19,6 @@ We wanted to create a series of distinctive portraits, using a variety of medium
 
 ### RESPONSIBILITIES
 
-I created nine portraits for this project. I used a variety of mediums: pen and ink, watercolor, pastel, scratchboard, pencil, and computer to not only reproduce a likeness, but illustrate an individual story of courage. The initial goal was to publish the content exclusively as an ebook, but I suggested that we also present the content <a href='http://womensrights.asia'>online</a> and repurpose it as a <a href='http://www.blurb.com/b/6362951-it-s-not-ok-softcover?t=1438009925891'>printed book</a>. I designed a simple responsive site and helped design the print-on-demand edition.
+I created nine portraits for this project. I used a variety of mediums: pen and ink, watercolor, pastel, scratchboard, pencil, and computer to not only reproduce a likeness, but illustrate an individual story of courage. The initial goal was to publish the content exclusively as an ebook, but I suggested that we also present the content <a href='http://web.archive.org/web/20170702020700/http://www.womensrights.asia/' title="Internet archive snapshot of the site">online</a> and repurpose it as a <a href='http://www.blurb.com/b/6362951-it-s-not-ok-softcover?t=1438009925891'>printed book</a>. I designed <a href="http://web.archive.org/web/20170702020700/http://www.womensrights.asia/" title="Internet archive snapshot of the site">a simple responsive site</a> and helped design the print-on-demand edition.
 
 <img src='../img/womensrightsasia.jpg' />

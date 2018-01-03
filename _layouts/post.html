@@ -25,8 +25,9 @@ layout: default
 		<p class="vj__credit">{{ page.credit }}</p>
 	</div>
 
-{% elsif page.image %}
 	<div class="vj__grid__full vj__border-sides">
+
+{% elsif page.image %}
 	{% if page.vertical %}
 	  {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
 		{% if page.image %}<div class="vj__medium-half"><img class="" src="{{ site.url }}/img/{{ page.image }}" alt="{{ page.alt }}" />
@@ -46,11 +47,9 @@ layout: default
 			<p class="vj__credit">{{ page.credit }}</p>
 		</div>
   {% endif %}
-	</div>
 
 {% endif %}
 
-	<div class="vj__grid__full vj__border-sides">
 		<div class="post-content vj__grid" itemprop="articleBody">
 			<div class="vj__story">
 			  {{ content }}
