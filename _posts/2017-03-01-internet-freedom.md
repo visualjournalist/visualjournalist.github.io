@@ -16,4 +16,4 @@ This project explores internet freedom and how its availability, or restrictions
 
 ### RESPONSIBILITIES
 
-I designed and developed overall site, as well as individual story pages, graphics and illustrations. I worked closely with the reporters and editors for VOA's series about Somalia's young digital explorers.
+I designed and developed the overall site, as well as the individual story pages, graphics and illustrations. I worked closely with the reporters and editors for VOA's series about Somalia's young digital explorers.
