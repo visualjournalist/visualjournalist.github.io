@@ -6,4 +6,4 @@ permalink: /interactive/
 
 ---
 
-BRIAN WILLIAMSON started as a newspaper page designer at the St. Louis Post-Dispatch, designing everything from the front page to business and feature pages. At some point he transitioned to designing interactive content for the newspaper. He is comfortable working with HTML, CSS, JavaScript, Node, JSON and creating data visualizations with D3 and Leaflet.
+BRIAN WILLIAMSON originally created Flash-based interactive graphics and stories for the St. Louis Post-Dispatch. At some point he transitioned from ActionScript3 to JavaScript, HTML, CSS, Node, JSON and creating data visualizations with D3 and Leaflet.
