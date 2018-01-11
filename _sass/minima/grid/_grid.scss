@@ -48,6 +48,7 @@
 	.vj__comicbook__page:nth-child(even) {
 		@media only screen and (min-width: $media__small) {
 			border-left: none;
+			border-right: 1px solid #CCC;
 			border-radius: 0 10px 10px 0;
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f2f2+0,ffffff+9 */
 			background: #f2f2f2; /* Old browsers */

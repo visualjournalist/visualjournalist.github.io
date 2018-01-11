@@ -22,6 +22,106 @@ excerpt: Selected pages from a sketchbook of people surreptitiously drawn on Was
 <div class="vj__grid__full vj__comicbook" style="margin-top: 30px;">
 
 		<div class="vj__grid__one-half vj__comicbook__page">
+			<!-- page 39 -->
+			<div class="vj__grid__full">
+				<div class="vj__comic__one-third">
+					<img src="../img/sketchbook/page-39__r1__1-3.jpg">
+				</div><!--
+				--><div class="vj__comic__one-third">
+					<img src="../img/sketchbook/page-39__r1__2-3.jpg">
+				</div><!--
+				--><div class="vj__comic__one-third">
+					<img src="../img/sketchbook/page-39__r1__3-3.jpg">
+				</div>
+			</div>
+			<div class="vj__grid__full">
+				<div class="vj__grid__full-width">
+					<img src="../img/sketchbook/page-39__r2__1-1.jpg">
+				</div>
+			</div>
+		</div><!--
+
+
+
+
+		--><div class="vj__grid__one-half vj__comicbook__page">
+			<!-- page 36 -->
+			<div class="vj__grid__full">
+				<div class="vj__grid__full-width">
+					<img src="../img/sketchbook/page-36__r1__1-1.jpg">
+				</div>
+			</div>
+			<div class="vj__grid__full">
+				<div class="vj__comic__one-half">
+					<img src="../img/sketchbook/page-36__r2__1-2.jpg">
+				</div><!--
+				--><div class="vj__comic__one-half">
+					<img src="../img/sketchbook/page-36__r2__2-2.jpg">
+				</div>
+			</div>
+			<div class="vj__grid__full">
+				<div class="vj__grid__full-width">
+					<img src="../img/sketchbook/page-36__r3__1-1.jpg" class="featured">
+				</div>
+			</div>
+		</div><!--
+
+
+		--><div class="vj__grid__one-half vj__comicbook__page">
+			<!-- page 33 -->
+			<div class="vj__grid__full">
+				<div class="vj__comic__one-half">
+					<img src="../img/sketchbook/page-33__r1__1-2.jpg">
+				</div><!--
+				--><div class="vj__comic__one-half">
+					<img src="../img/sketchbook/page-33__r1__2-2.jpg">
+				</div>
+			</div>
+			<div class="vj__grid__full">
+				<div class="vj__comic__one-third">
+					<img src="../img/sketchbook/page-33__r2__1-3.jpg">
+				</div><!--
+				--><div class="vj__comic__one-third">
+					<img src="../img/sketchbook/page-33__r2__2-3.jpg">
+				</div><!--
+				--><div class="vj__comic__one-third">
+					<img src="../img/sketchbook/page-33__r2__3-3.jpg">
+				</div>
+			</div>
+			<div class="vj__grid__full">
+				<div class="vj__grid__full-width">
+					<img src="../img/sketchbook/page-33__r3__1-1.jpg">
+				</div>
+			</div>
+		</div><!--
+
+
+
+
+		--><div class="vj__grid__one-half vj__comicbook__page">
+			<!-- page 32 -->
+			<div class="vj__grid__full">
+				<div class="vj__grid__full-width">
+					<img src="../img/sketchbook/page-32__r1__1-1.jpg">
+				</div>
+			</div>
+			<div class="vj__grid__full">
+				<div class="vj__comic__one-half">
+					<img src="../img/sketchbook/page-32__r2__1-2.jpg">
+				</div><!--
+				--><div class="vj__comic__one-half">
+					<img src="../img/sketchbook/page-32__r2__2-2.jpg">
+				</div>
+			</div>
+			<div class="vj__grid__full">
+				<div class="vj__grid__full-width">
+					<img src="../img/sketchbook/page-32__r3__1-1.jpg" class="featured">
+				</div>
+			</div>
+		</div><!--
+
+
+		--><div class="vj__grid__one-half vj__comicbook__page">
 			<!-- page 29 -->
 			<div class="vj__grid__full">
 				<div class="vj__comic__one-half">
