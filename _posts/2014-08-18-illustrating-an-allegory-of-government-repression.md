@@ -14,6 +14,8 @@ youtube: MYDfi70V49Y
 
 The short fable tells the story of a wild pigeon prince who is captured and caged by men. He ultimately decides that suicide is preferable to a life spent in captivity. After it was published, the Chinese government recognized that the story was an allegory for the Uyghur people living under Chinese rule. The court sentenced Yasin to 10 years in prison for inciting Uyghur separatism.
 
+<img src="/img/wildPigeon_portrait.jpg" alt="Left: Charcoal portrait of Nurmuhemmet Yasin. Right: Pencil drawing of a Uyghur man playing a stringed instrument."/>
+
 ### RESPONSIBILITIES
 
 I created 11 original illustrations for the short story “Wild Pigeon”, as well as creating the book cover, author portrait, illustrating a short essay on the nature of love, and drawing a series of small pencil sketches to help break up the pages of poetry. I also proposed repurposing the content as a print-on-demand book and helped design the softcover and hardcover editions. Finally, I shot and edited a short video trailer to promote the project.

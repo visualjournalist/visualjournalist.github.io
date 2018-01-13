@@ -19,6 +19,8 @@ When we started the project we knew that we:
 * Could repurpose art across the explanations to illustrate recurring concepts.
 * I proposed that we create a series of simple responsive comic book introductions for each of the tools we were profiling. Unlike a large, static infographic explanation, comic book pages divided up into panels are ideal for reflowing onto different devices.
 
+<a href="https://projects.voanews.com/circumvention/" title="Explore VOA's Circumventing Censorship project"><img src="/img/circumvention--animated.gif" style="width: 100%;" alt="Animated loop showing a cartoon character typing on a computer and receiving a 404 error because of a dictator on the other side of the computer."/></a>
+
 ### RESPONSIBILITIES
 
 I illustrated and designed the comics. I created a flexible CSS library to make the comics responsive. I also used TabletopJS and a Google spreadsheet to facilitate the translation of the comics across multiple languages. I then designed a simple responsive site to help users navigate between the tools. Finally, I helped repackage the project into an epub format to help share the information with other people unable to access the content online.
