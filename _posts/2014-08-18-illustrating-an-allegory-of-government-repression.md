@@ -8,6 +8,7 @@ credit: Brian Williamson | Radio Free Asia
 thumbnail: 2014-08-18__wild-pigeon--640x360.jpg
 alt: Illustration of a pigeon trying to escape from a tangled web of strings.
 youtube: MYDfi70V49Y
+link-project: http://www.blurb.com/b/4867368-wild-pigeon-softcover
 ---
 
 **Illustrated a book of jailed Uyghur author Nurmuhemmet Yasin's short stories, essays and poems. “Caged” was published in Uyghur and English as an eBook and a print-on-demand book. In 2004, Nurmuhemmet Yasin was a successful Uyghur author living in western China when he published “Wild Pigeon”.**

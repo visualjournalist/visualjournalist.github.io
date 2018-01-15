@@ -24,8 +24,8 @@ The story alternates between comic book panels and paragraphs of text to describ
 
 ### RESPONSIBILITIES
 
-I initially proposed a couple of different options for the story: we could have a single conceptual illustration at the top of the story, or we could experiment with weaving the narration between graphic novel sections and paragraphs of prose. 
-
-Once the editors approved the second option, I went through the initial draft of the story to find key moments to break out. The writing and illustrations were brought together through an iterative editing process.
+After reading an early draft of the story, I proposed weaving the narration between graphic novel sections and paragraphs of prose. I combed through the story to find key moments to break out. The writing and illustrations were brought together through an iterative editing process.
 
 The illustrations were drawn in brush, pen and ink, and colored in Photoshop.
+
+In addition to illustrating and designing the main story, I also created a visualization of [federal terrorism prosecutions](/interactive/federal-terrorism-prosecutions-graphic). 
