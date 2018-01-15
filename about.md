@@ -5,12 +5,12 @@ permalink: /about/
 exclude_from_nav: true
 ---
 
-<div class="vj__grid__full" style="margin-top: 30px;">
+<div class="vj__grid__full" style="margin-top: 45px;">
 	<div class="vj__grid__two-thirds wide-right vj__rule ">
 
 		<img src="../img/portrait.jpg" alt="Portrait of Brian Williamson hiking on the Appalachian Trail on the bluffs over Harpers Ferry." />
 
-		<p style="line-height: 1.5;">BRIAN WILLIAMSON is an interactive designer for Voice of America’s News Center. He designs, illustrates, animates and writes code to tell stories for <a href="https://voanews.com">voanews.com</a>. Recent projects have incorporated comics journalism to tell the stories of ivory poachers and the wives of ISIS fighters, and to explain how the White House has traditionally secured presidential phone call transcripts. Prior to joining VOA, he was the senior UX designer for BBG’s Office of Digital and Design Innovation, where he contributed to open source journalism projects, illustrated books for Radio Free Asia and helped coordinate VOA's 2014 World Cup coverage. He started his visual journalism career as a page designer at the St. Louis Post-Dispatch from 2004 to 2010. He has taught intro and advanced magazine design courses at the University of Missouri School of Journalism. Williamson is a graduate of Washington University in St. Louis, Missouri, where he majored in illustration.</p>
+		<p style="line-height: 1.5;">I am an interactive designer for Voice of America’s News Center. I design, illustrate, animate and write code to tell stories for <a href="https://voanews.com">voanews.com</a>. Recent projects have incorporated comics journalism to tell the stories of ivory poachers and the wives of ISIS fighters, and to explain how the White House has traditionally secured presidential phone call transcripts. Prior to joining VOA, I was the senior UX designer for BBG’s Office of Digital and Design Innovation, where I contributed to open source journalism projects, illustrated books for Radio Free Asia and helped coordinate VOA's 2014 World Cup coverage. I started my visual journalism career as a newspaper page designer at the St. Louis Post-Dispatch from 2004 to 2010. I taught intro and advanced magazine design courses at the University of Missouri School of Journalism. I am a graduate of Washington University in St. Louis, Missouri, where I majored in illustration. <a href="https://twitter.com/BrianWmson">@BrianWmson</a></p>
 
 	</div><!--
 	--><div class="vj__grid__one-third">

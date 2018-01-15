@@ -15,4 +15,8 @@ link-project:  "/flash/flash-pujols-homeruns"
 
 ### RESPONSIBILITIES
 
-I designed and developed this interactive graphic to enable users to explore Albert Pujols' 400 home runs. His home runs can be mapped and filtered based on the stadium and team when they were hit. They can also be filtered based on parameters to compare home runs against left-handed pitchers or during night games or when there was a full count. I also graphed his home runs over time and showed how the cost per home run increased dramatically from his first year ($5,405) to the last year ($429,293). 
+I designed and developed this interactive graphic to enable users to explore Albert Pujols' 400 home runs. 
+
+His home runs can be mapped and filtered based on the stadium and team when they were hit. They can also be filtered based on parameters to compare home runs against left-handed pitchers or during night games or when there was a full count. 
+
+I also graphed his home runs over time and showed how the cost per home run increased dramatically from his rookie year ($5,405) to the last year ($429,293). 

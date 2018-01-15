@@ -15,13 +15,13 @@
 # in the templates via {{ site.myvariable }}.
 title: Visual Journalist | Brian Williamson’s portfolio site for design, graphics, illustrations and videos
 description: > # this means to ignore newlines until "baseurl:"
-  BRIAN WILLIAMSON is a graphic artist, interactive developer and designer for Voice of America. He designs, illustrates, animates and writes code to tell stories. VOA provides objective news and information in 45 languages to over 235 million people around the world every week. For 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
+  I am a graphic artist, interactive developer and designer for Voice of America. I design, illustrate, animate and write code to tell stories. VOA provides objective news and information in 45 languages to over 235 million people around the world every week. For 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
 title_short: Visual Journalist | Brian Williamson’s portfolio | 
 description_short: > # this means to ignore newlines until "baseurl:"
   Brian Williamson is a graphic artist, interactive developer and designer for VOA. He designs, illustrates, animates and writes code to tell stories.
 
 description_link: > # 
-  BRIAN WILLIAMSON (<a href="https://twitter.com/BrianWmson">@BrianWmson</a>) is a graphic artist, interactive developer and designer for Voice of America. He designs, illustrates, animates and writes code to tell stories. VOA provides objective news and information in 45 languages to over 235 million people around the world every week. For 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
+  I am a graphic artist, interactive developer and designer for Voice of America. I design, illustrate, animate and write code to tell stories. VOA provides objective news and information in 45 languages to over 235 million people around the world every week. For 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
 
 categories_list:
   - name: interactive
@@ -48,8 +48,6 @@ github_username: "bbgvisualjournalist"
 
 development_mode: true
 development_warning: This site is currently under active development. There is a lot of lorem ipsum.
-
-test_var: <h2>this is a <a href="https://google.com/">test</a></h2>
 
 # Build settings
 markdown: kramdown
