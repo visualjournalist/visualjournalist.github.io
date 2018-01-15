@@ -14,7 +14,7 @@ excerpt: Selected pages from a sketchbook of people surreptitiously drawn on Was
 	  <div class="post-content">
 
 
-<div style="text-align: center; margin-top: 60px;">
+<div style="text-align: center; margin-top: 75px;">
 	<h1 style="font-size: 48px; margin-bottom: 10px;">Red Line portraits</h1>
 	<h4 style="font-weight: normal;">Selected pages from a sketchbook of people surreptitiously drawn on Washington DC's Metro.</h4>
 </div>
