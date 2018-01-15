@@ -1,7 +1,7 @@
 /* NAVBAR STYLES */
 .main-menu-nav {
 	display: none;
-	margin-top: 50px;
+	margin-top: 64px;
 }
 
 .vj__navbar {
@@ -157,9 +157,13 @@
 		font-weight: normal;
 		margin-top: 10px;//5px;
 		margin-bottom: 12px;
-		padding-left: 10px;
+		//padding-left: 10px;
+		margin-left: 5%;
 		text-transform: uppercase;
 		text-decoration: none;
+		@media only screen and (min-width: $media__medium-large) {
+			margin-left: 0;
+		}
 	}
 
 	.vj__navbar__link:hover .vj__navbar__title {
@@ -174,7 +178,7 @@
 		background-position: 0 -30px;
 		float: right; 
 		height: 30px; 
-		margin:  10px 5% 4px 0;
+		margin:  17px 5% 4px 0;
 		width: 30px; 
 		padding: 0;
 	}
