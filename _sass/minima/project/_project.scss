@@ -121,9 +121,11 @@
 				padding: 0;
 			}
 
-			div:nth-of-type(3n){
-				@media only screen and  (min-width: $media__medium) and (max-width: $media__large) {
-					display: none;
+			&.vj__home {
+				div:nth-of-type(3n){
+					@media only screen and  (min-width: $media__medium) and (max-width: $media__large) {
+						display: none;
+					}
 				}
 			}
 		}
