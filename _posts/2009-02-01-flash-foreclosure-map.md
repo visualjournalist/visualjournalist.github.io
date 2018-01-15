@@ -3,8 +3,8 @@ layout: flash
 title:  "foreclosure map"
 date:   2009-02-01
 categories: flash
-image:2009-02-01__foreclosure-map.jpg
-filename: foreclosure-map
+image: 2009-02-01__foreclosure-map.jpg
+filename: 2009-02-01__foreclosure-map
 thumbnail: 2009-02-01__foreclosure-map--640x360.jpg
 credit: Brian Williamson | St. Louis Post-Dispatch
 ---
