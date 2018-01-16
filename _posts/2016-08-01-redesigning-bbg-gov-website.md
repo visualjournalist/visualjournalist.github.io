@@ -11,7 +11,7 @@ link-project:  "https://bbg.gov"
 
 **I led a small team that was responsible for redesigning the Broadcasting Board of Governors' main .gov website, transforming it into a modern responsive website using the [U.S. Web Design Standards](https://18f.gsa.gov/2015/09/28/web-design-standards/).**
 
-The [previous site](https://web.archive.org/web/20141006045947/http://www.bbg.gov/) was hard to update and difficult to navigate. The site was plagued by duplicative, outdated and inconsistent content.
+The [previous site](https://web.archive.org/web/20141006045947/http://www.bbg.gov/) was hard to update and difficult to navigate. It was plagued by duplicative, outdated and inconsistent content.
 
 ### RESPONSIBILITIES
 
