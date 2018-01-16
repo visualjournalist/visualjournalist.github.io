@@ -342,16 +342,16 @@
 		}
 
 		@media only screen and (min-width: $media__large) {
-			height: 500px;
+			height: 400px;
 
 			img.vj__pano__image {
-				height: 500px;
+				height: 400px;
 			}
 		}
 
 	}
 	.vj__pano__swipe-button {
-		background: rgba(210,10,10,0.9) url(/img/fpo__icon-tap.png) no-repeat center left / 40px 40px;
+		background: rgba(10,10,10,0.8) url(/img/icons/icon__tap_white.png) no-repeat center left 15px / 28px 28px;
 		border-radius: 0 20px 20px 0;
 		color: #FFF;
 		cursor: pointer;
@@ -364,7 +364,7 @@
 		z-index: 9998;
 
 		@media only screen and (min-width: $media__large) {
-			top: 500px;
+			top: 450px;
 		}
 	}
 
