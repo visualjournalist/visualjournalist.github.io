@@ -1,0 +1,151 @@
+---
+layout: default
+---
+
+<style type="text/css">
+
+	.vj__project .vj__pano {
+		box-shadow: inset 0 0 5px #333;
+		height: 300px;
+		margin-top: 62px; 
+		overflow-x: auto;
+		overflow-y: hidden;
+		position: relative;
+		width: 100%;
+	}
+	.vj__project img.vj__pano__image {
+		height: 300px;
+		margin: 0;
+		padding: 0;
+		width: auto;
+	}
+	.vj__pano__swipe-button {
+		background: rgba(210,10,10,0.9) url(/img/fpo__icon-tap.png) no-repeat center left / 40px 40px;
+		border-radius: 0 20px 20px 0;
+		color: #FFF;
+		cursor: pointer;
+		display: inline-block;
+		height: 20px;
+		padding: 5px 15px 25px 48px;
+		position: absolute;
+			top: 350px;
+			right;
+		width: auto;
+		z-index: 9998;
+	}
+</style>
+
+<script type="text/javascript">
+
+		var scrollStart = 0.31
+
+		function scrollPano(scrollPercentageNumber){
+			var imageWidthTest = $("#illustration img").width();
+
+			var percent = scrollPercentageNumber;
+			var scrollPercentage = imageWidthTest * percent;
+
+			$('#illustration').animate({scrollLeft: scrollPercentage}, 1500);
+		}
+
+		$(window).on('load', function() {
+			scrollPano(scrollStart);
+
+			$('#swipe').click(function(){
+				var randomPercent = Math.random();
+				scrollPano(randomPercent);
+			})
+
+		});
+
+</script>
+
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting" style="margin-bottom: 0;">
+
+	<div id="illustration" class="vj__pano">
+		<img class="vj__pano__image" src="{{ site.url }}/img/{{ page.image }}" alt="{{ page.alt }}" style="">
+	</div>
+
+	<div id="swipe" class="vj__pano__swipe-button">Swipe to explore <span class="hideMobile">this panoramic image</span></div>
+
+
+
+	<div class="vj__grid__full vj__content vj__border-sides">
+
+		<div class="vj__section__full-width" style="padding-top: 45px;">
+			<div class="vj__grid__full">
+				<div class="vj__grid">
+						
+
+					<div class="vj__story">
+						<header class="post-header" style="padding-top: 15px; max-width: 640px; margin: 0 auto;">
+							<h3 class="vj__kicker" style="background-color: orange;"><a href="/{{ page.categories.last }}/">{{ page.categories.last }}</a></h3>
+				<h3 class="" style="float: right; color: #CCC; font-weight: normal; text-transform: uppercase;">{{ page.date | date: "%B %-d, %Y" }}</h3>
+
+							<h1 class="vj__title balance-text ">{{ page.title }}</h1>
+
+						</header>
+
+						{{ content }}
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	{% if page.link-project or page.link-code or page.link-blogpost or page.link-video or page.link-related %}
+	<div class="vj__grid__full ">
+		
+		<div class="vj__grid vj__related-links">
+			<ul class="">
+			{% if page.link-project %}<li><a href="{{ page.link-project }}">View the project</a></li>{% endif %}
+			{% if page.link-code %}<li><a href="{{ page.link-code }}">View the code</a></li>{% endif %}
+			{% if page.link-blogpost %}<li><a href="{{ page.link-blogpost }}">Read a blogpost</a></li>{% endif %}
+			{% if page.link-related %}<li><a href="{{ page.link-related }}">Read a related post</a></li>{% endif %}
+			{% if page.link-video %}<li><a href="{{ page.link-video }}">Watch a video</a></li>{% endif %}
+			{% if page.link-pdf %}<li><a href="{{ page.link-pdf }}">Download the PDF</a></li>{% endif %}
+			</ul>
+		</div>
+	</div>
+	{% endif %}
+
+
+
+		<div class="vj__grid__full vj__recent-projects  " style="padding-top: 40px;">
+
+			<div class="vj__grid">
+				<h3 class="vj__label" style="margin-bottom: 0;">Recent projects</h3>
+			</div>
+			<div class="vj__grid">
+			<!--
+	{% for post in site.posts limit:4 %}
+	  {% if post.url != page.url %} 
+		{% if forloop.index < 4 or found %}
+
+				--><div class="vj__grid__one-third">
+					<a href="{{ post.url }}">
+			  {% if post.thumbnail %}
+						<img src="/img/{{ post.thumbnail }}">
+			  {% else %}
+						<img src="https://placehold.it/1280x720">
+			  {% endif %}
+						<h3 class="headline">{{ post.title }}</h3>
+					</a>
+				</div><!--
+
+
+		{% endif %}
+	  {% else %}
+		{% assign found = true %} 
+	  {% endif %}
+	{% endfor %}
+	  		-->
+			</div>
+		</div>
+
+	</div>
+</article>
+
+{% include footer.html %}
