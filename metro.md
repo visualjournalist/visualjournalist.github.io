@@ -41,16 +41,6 @@ excerpt: A single drawing that continues across city streets,underground and ove
 
 <script type="text/javascript">
 
-		/*
-		function scrollPano(){
-			var imageWidthTest = $("#illustration img").width();
-
-			var percent = 0.31
-			var scrollPercentage = imageWidthTest * percent;
-
-			$('#illustration').animate({scrollLeft: scrollPercentage}, 1000);
-		}
-		*/
 		var scrollStart = 0.31
 
 		function scrollPano(scrollPercentageNumber){

@@ -4,7 +4,7 @@ title: Panoramic drawing of food in St. Louis
 permalink: food
 image: sketchbook/food.jpg
 exclude_from_nav: true
-excerpt: A single drawing that continues across city streets,underground and over bridges.
+excerpt: A panoramic pen and ink illustration of people cooking and eating in St. Louis, Missouri.
 ---
 
 <style type="text/css">
@@ -37,20 +37,11 @@ excerpt: A single drawing that continues across city streets,underground and ove
 		width: auto;
 		z-index: 9998;
 	}
+
 </style>
 
 <script type="text/javascript">
 
-		/*
-		function scrollPano(){
-			var imageWidthTest = $("#illustration img").width();
-
-			var percent = 0.31
-			var scrollPercentage = imageWidthTest * percent;
-
-			$('#illustration').animate({scrollLeft: scrollPercentage}, 1000);
-		}
-		*/
 		var scrollStart = 0.31
 
 		function scrollPano(scrollPercentageNumber){
@@ -76,11 +67,10 @@ excerpt: A single drawing that continues across city streets,underground and ove
 
 <article class="post">
 	<div id="illustration" class="vj__pano">
-		<img class="vj__pano__image" src="/img/pano_food.jpg" alt="A panoramic illustration of food in St. Louis. By Brian Williamson." style="">
+		<img class="vj__pano__image" src="/img/pano_food.jpg" alt="A panoramic pen and ink illustration of people cooking and eating in St. Louis, Missouri. By Brian Williamson." style="">
 	</div>
 
 	<div id="swipe" class="vj__pano__swipe-button">Swipe to explore <span class="hideMobile">this panoramic image</span></div>
-
 
 	<div class="vj__section__full-width" style="padding-top: 30px;">
 		<div class="vj__grid__full">
