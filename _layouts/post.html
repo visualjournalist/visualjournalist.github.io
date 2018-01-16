@@ -30,7 +30,7 @@ layout: default
 {% elsif page.image %}
 	{% if page.vertical %}
 	  {% if page.image and page.link-project %}<a href="{{ page.link-project }}"/>{% endif %}
-		{% if page.image %}<div class="vj__medium-half"><img class="" src="{{ site.url }}/img/{{ page.image }}" alt="{{ page.alt }}" />
+		{% if page.image %}<div class="vj__medium-half"><img src="{{ site.url }}/img/{{ page.image }}" alt="{{ page.alt }}" {% if page.border %} class="vj__no-border" {% endif %}/>
 		<div class="vj__grid">
 			<p class="vj__credit">{{ page.credit }}</p>
 		</div>

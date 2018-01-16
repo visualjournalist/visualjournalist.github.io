@@ -9,6 +9,10 @@
 	img {
 		border: 1px solid #F1F1F1;
 		width: 100%;
+
+		&.vj__no-border {
+			border: none;
+		}
 	}
 
 	a {
