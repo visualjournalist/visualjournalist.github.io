@@ -11,7 +11,8 @@ link-project:  "https://bbg.gov"
 
 **I led a small team that was responsible for redesigning the Broadcasting Board of Governors' main .gov website, transforming it into a modern responsive website using the [U.S. Web Design Standards](https://18f.gsa.gov/2015/09/28/web-design-standards/).**
 
+The [previous site](https://web.archive.org/web/20141006045947/http://www.bbg.gov/) was hard to update and difficult to navigate. The site was plagued by duplicative, outdated and inconsistent content.
 
 ### RESPONSIBILITIES
 
-Worked with the stakeholders define site requirements and identify opportunities to improve the workflow for maintaining the site. Responsible for designing the overall look and feel of the website as well as creating the main page templates. Developed the templates from the initial pencil wireframes, to coding the HTML markup, to styling the pages with SASS/CSS. Worked closely with a developer on front end and back end code. Helped promote overall site consistency in the coding and visual styles across the site. 
+I worked with the stakeholders to define site requirements and identify opportunities to improve the workflow for maintaining the site. I was responsible for designing the overall look and feel of the website as well as creating the main page templates. I developed the templates from the initial pencil wireframes, to coding the HTML markup, to styling the pages with SASS/CSS. I worked closely with a developer on front end and back end code. I helped promote overall site consistency in the coding and visual styles across the site. 

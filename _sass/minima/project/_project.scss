@@ -268,7 +268,7 @@
 				border-radius: 0 40px 40px 0;
 				box-shadow: 0 0 2px rgba(250,250,250,.8);
 				color: #FFF;
-				display: none;
+				//display: none;
 				font-size: 12px;
 				padding: 10px;
 				position: absolute;
@@ -278,6 +278,11 @@
 				text-shadow: 1px 1px 3px rgba(20,20,20,.4);
 				text-transform: uppercase;
 				width: 180px;
+
+				h3 {
+					display: inline-block;
+					vertical-align: middle;
+				}
 
 				@media only screen and (min-width: $media__medium) {
 					bottom: 40px;
@@ -297,7 +302,6 @@
 					width: 36px;
 					height: 36px;
 					vertical-align: middle;
-					
 				}
 
 			}

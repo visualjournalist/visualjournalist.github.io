@@ -11,7 +11,7 @@ credit: Brian Williamson | St. Louis Post-Dispatch
 link-project:  "/flash/flash-pujols-homeruns"
 ---
 
-**Albert Pujols, in his 10th season, reached the 400 home run milestone by age 30. Only Stan Musial had more as a St. Louis Cardinal. Here's a look at Albert's regular-season career homers. Sort the home runs by season, stadium, team and batting conditions in this interactive Flash graphic.**
+Albert Pujols, in his 10th season, reached the 400 home run milestone by age 30. Only Stan Musial had more as a St. Louis Cardinal. Here's a look at Albert's regular-season career homers. Sort the home runs by season, stadium, team and batting conditions in this interactive Flash graphic.
 
 ### RESPONSIBILITIES
 

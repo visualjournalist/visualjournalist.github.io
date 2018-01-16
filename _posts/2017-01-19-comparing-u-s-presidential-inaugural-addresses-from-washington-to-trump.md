@@ -5,6 +5,8 @@ date:   2017-01-19
 categories: interactive
 image: 2017-01-19__inaugural-comparison.jpg
 thumbnail: 2017-01-19__inaugural-comparison.jpg
+credit: AP
+alt: President Kennedy delivering his inaugural address
 link-project:  "https://projects.voanews.com/inaugural-comparison/"
 ---
 
