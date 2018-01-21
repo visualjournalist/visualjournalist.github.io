@@ -15,6 +15,17 @@
 		text-align: left;
 	}
 
+	.vj__date {
+		color: #CCC;
+		display: none;
+		float: right;
+		font-weight: normal;
+		text-transform: uppercase;
+		@media only screen and (min-width: $media__medium) {
+			display: block;
+		}
+	}
+
 	.vj__featured-post {
 		a {
 
