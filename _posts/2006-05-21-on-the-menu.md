@@ -9,14 +9,12 @@ thumbnail: 2006-05-21__on-the-menu--640x360.jpg
 credit: Brian Williamson | St. Louis Post-Dispatch
 ---
 
-**Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.**
+**In 2006, the St. Louis Post-Dispatch launched their first printed guide to the best food available in the region.**
 
-<img src="/img/2006-05-21__on-the-menu--small.jpg" alt="Magazine cover for the On the Menu 2006 guide to eating out in St. Louis." class="vj__half-column">
+<img src="/img/2006-05-21__on-the-menu--small.jpg" alt="Magazine cover for the On the Menu 2006 guide to eating out in St. Louis." class="vj__half-column vj__no-mobile">
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This guide highlighted the top fine-dining, hole-in-the-wall and ethnic restaurants from their database of more than 1,000 restaurants in the region.
 
 ### RESPONSIBILITIES
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I created an acyrlic painting for the cover of the glossy magazine featuring an assortment of the regional delicacies.

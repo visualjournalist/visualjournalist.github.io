@@ -7,11 +7,10 @@ image: 2005-03-01__illustration__rich-taxes--medium.jpg
 thumbnail: 2005-03-01__illustration__rich-taxes--640x360.jpg
 credit: Brian Williamson | St. Louis Post-Dispatch
 alt: Illustration of people being dropped into a jar.
-vertical: true
 border: none
 ---
 
-**A change in the tax code has unintentionally bumped many middle class families into a high tax bracket.**
+**A change in the tax code has unintentionally caused many middle class families to pay more taxes.**
 
 In 2005, 19 million taxpayers were caught by the Alternative Minimum Tax, a 36-year-old rule originally designed to catch the wealthiest Americans.
 
