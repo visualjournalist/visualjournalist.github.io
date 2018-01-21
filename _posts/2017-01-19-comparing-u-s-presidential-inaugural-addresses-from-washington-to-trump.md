@@ -22,4 +22,4 @@ I created a simple Node app that loops through text versions of all of the inaug
 
 I then created two visualizations: a simple word cloud for each address as well as bar graph comparing the totals over time. By selecting a word in the word cloud, the graph is redrawn for the selected word, showing how its use has changed from president to president. By selecting a bar, users can jump to a different presidential address.
 
-Because the tabulating was automated with a script, we were able to include President Trump’s address shortly after it was delivered.
+Because tabulating the word counts was automated by a script, we were able to include President Trump’s address shortly after it was delivered.

@@ -7,8 +7,13 @@
 	word-wrap: break-word;
 
 	img {
-		border: 1px solid #F1F1F1;
+		border-top: 1px solid #F1F1F1;
+		border-bottom: 1px solid #F1F1F1;
 		width: 100%;
+
+		@media only screen and (min-width: $media__large) {
+			border: 1px solid #F1F1F1;
+		}
 
 		&.vj__no-border {
 			border: none;

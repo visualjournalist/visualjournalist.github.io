@@ -3,7 +3,7 @@ layout: post
 title:  "Dropped in with the wealthy"
 date:   2005-03-01
 categories: illustration
-image: 2005-03-01__illustration__rich-taxes--medium.jpg
+image: 2005-03-01__illustration__rich-taxes--large.jpg
 thumbnail: 2005-03-01__illustration__rich-taxes--640x360.jpg
 credit: Brian Williamson | St. Louis Post-Dispatch
 alt: Illustration of people being dropped into a jar.
