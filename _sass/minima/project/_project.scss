@@ -3,11 +3,15 @@
 .vj__project {
 
 	.vj__home__section {
-		border-bottom: 1px dotted #CCC;
+		.vj__home__section__promos {
+			border-bottom: 1px dotted #CCC;
+		}
 	}
 
 	.vj__home__section:last-of-type {
-		border-bottom: none;
+		.vj__home__section__promos {
+			border-bottom: none;
+		}
 	}
 
 	.vj__credit,
