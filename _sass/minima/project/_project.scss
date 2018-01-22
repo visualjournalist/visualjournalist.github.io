@@ -253,19 +253,22 @@
 				border-bottom: 1px solid #CCC;
 			}
 
-			h3 {
-			    display: inline-block;
-			    font-size: 14px;
-			    vertical-align: middle;
-			    width: 70%;
-			    width: calc(95% - 135px);
-			}
-			img {
-			    display: inline-block;
-				margin-right: 5px;
-				margin-left: 5%;
-			    vertical-align: middle;
-				width: 120px;
+			a {
+				h3 {
+					display: inline-block;
+					font-size: 14px;
+					vertical-align: middle;
+					width: 70%;
+					width: calc(95% - 135px);
+				}
+				img {
+					display: inline-block;
+					margin-right: 5px;
+					margin-left: 5%;
+					vertical-align: middle;
+					width: 120px;
+				}
+				
 			}
 		}
 
