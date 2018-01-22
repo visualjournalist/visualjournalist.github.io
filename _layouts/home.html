@@ -38,7 +38,7 @@ layout: default
   {% for cat in site.categories_list %}
 	  {% assign currentCat = cat.name %}
 	  {% assign currentCatDescription = cat.description %}
-	<section style="">
+	<section class="vj__home__section">
 		<div class="vj__grid__full vj__border-sides" style="padding-top: 20px; margin-bottom: 0; padding-bottom: 20px;">
 			<h3 class="vj__kicker" style="font-size: 20px; padding-left: 5%; margin-bottom: 15px;"><a href="{{ "/" | relative_url}}{{ currentCat }}">{{ currentCat}} portfolio</a></h3>
 			<!--<div class="vj__grid ">
@@ -64,7 +64,7 @@ layout: default
 			</div>
 		</div>
 
-		<div class="vj__grid__full vj__border-sides" style="padding-bottom: 40px; margin-bottom: 0;">
+		<div class="vj__grid__full vj__border-sides" style="margin-bottom: 0; padding-bottom: 40px;">
 				
 			<div class="vj__grid vj__portfolio-grid vj__home">
 		  <!--

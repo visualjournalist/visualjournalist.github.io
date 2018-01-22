@@ -1,6 +1,15 @@
 // Put project-specific CSS here.
 
 .vj__project {
+
+	.vj__home__section {
+		border-bottom: 1px dotted #CCC;
+	}
+
+	.vj__home__section:last-of-type {
+		border-bottom: none;
+	}
+
 	.vj__credit,
 	.vj__cutline {
 		color: #999;
@@ -268,7 +277,7 @@
 					vertical-align: middle;
 					width: 120px;
 				}
-				
+
 			}
 		}
 
