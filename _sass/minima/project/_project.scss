@@ -244,24 +244,25 @@
 
 
 		@media only screen and (max-width: $media__small) {
-			border-bottom: 1px solid #CCC;
+			border-top: 1px dotted #CCC;
 			display: inline-block;
-			margin-bottom: 1px;
+			//margin-bottom: 1px;
 			min-height: 60px;
 
-			&:first-of-type {
-				border-top: 1px solid #CCC;
+			&:last-of-type {
+				border-bottom: 1px solid #CCC;
 			}
 
 			h3 {
 			    display: inline-block;
 			    vertical-align: middle;
 			    width: 70%;
-			    width: calc(100% - 135px);
+			    width: calc(95% - 135px);
 			}
 			img {
 			    display: inline-block;
 				margin-right: 5px;
+				margin-left: 5%;
 			    vertical-align: middle;
 				width: 120px;
 			}
