@@ -3,11 +3,10 @@ layout: post
 title:  "Portrait of William Least Heat-Moon"
 date:   2002-01-01
 categories: illustration
-image: 2002-01-01__william-least-heat-moon.jpg
+image: 2002-01-01__william-least-heat-moon--large.jpg
 thumbnail: 2002-01-01__william-least-heat-moon--640x360.jpg
 credit: Brian Williamson | Vox Magazine
 alt: Painted portrait of William Least Heat-Moon.
-vertical: true
 ---
 
 **Painted a portrait of William Least Heat-Moon, the reclusive author of “Blue Highways”.**
