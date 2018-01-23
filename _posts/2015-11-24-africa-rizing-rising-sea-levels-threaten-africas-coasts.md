@@ -14,4 +14,4 @@ link-project:  "https://africa.rizing.org/whats-up-with-climate-change-senegals-
 
 ### RESPONSIBILITIES
 
-I storyboarded, created the assets and animated a short animation based on Professor Sow's explanation of climate change's impact on Senegal.
+I storyboarded, created the assets and animated a short video based on Professor Sow's explanation of climate change in Senegal.
