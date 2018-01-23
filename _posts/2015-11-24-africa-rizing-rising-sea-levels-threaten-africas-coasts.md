@@ -11,3 +11,7 @@ link-project:  "https://africa.rizing.org/whats-up-with-climate-change-senegals-
 ---
 
 **Senegalese professor Bamol Ali Sow explains how climate change is causing rising sea levels along Africa’s coasts.**
+
+### RESPONSIBILITIES
+
+I storyboarded, created the assets and animated a short explanation based on Professor Sow's explanation of climate change's likely impact on Senegal.

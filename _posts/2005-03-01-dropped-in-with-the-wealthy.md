@@ -17,3 +17,7 @@ In 2005, 19 million taxpayers were caught by the Alternative Minimum Tax, a 36-y
 When it first took effect in 1970, the AMT was designed to force a relatively tiny group of ultra rich people to pay taxes. Most of the less than 20,000 AMT filers that year paid little or no federal income tax the previous year.
 
 That first year, the AMT generated about $100 million in federal income taxes. Today millions of Americans are subject to the AMT.
+
+### RESPONSIBILITIES
+
+I created a quick digital illustration for the business section cover.
