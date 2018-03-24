@@ -5,7 +5,7 @@ date:   2012-02-01
 categories: video
 image: 2012-02-01__winning-the-relevance-race-with-bloomreach.jpg
 thumbnail: 2012-02-01__winning-the-relevance-race-with-bloomreach--640x360.jpg
-youtube: sgK27RZDVfU
+youtube: uheszDwHPx8
 ---
 
 **Created a two minute animation highlighting the challenges of online marketing and introducing BloomReach as the service to solve those problems.**
