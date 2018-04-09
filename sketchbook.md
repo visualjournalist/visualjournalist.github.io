@@ -642,15 +642,15 @@ excerpt: Selected pages from a sketchbook of people surreptitiously drawn on Was
 					<p style="margin-top: 0; font-size: 14px; line-height: 1.4;">{{ site.description }} | <a href="/about/">Read more</a></p>
 				</div>
 
-				<div class="vj__grid__one-third vj__no-mobile" style="margin-right: 0; padding-top: 20px;">
+				<div class="vj__grid__one-third" style="margin-right: 0; padding-top: 20px;">
 				  <div class="voa__grid">
 				  	<div style="vertical-align: bottom;">
 				  		<a href="/portraits/">
 					  		<img src="../img/portrait-thumbnail.jpg" style="float: left; margin-right: 10px; width: 33%; max-width: 100px;">
 							<h4 style="font-family: Arial, sans-serif;">Portrait gallery</h4>
 				  		</a>
-					  		<p style="font-size: 14px; line-height: 1.4;">A collection of drawings, prints and paintings of people.</p>
-						</div>
+					  	<p style="font-size: 14px; font-weight: bold;">A collection of drawings, prints and paintings of family members and public figures.</p>
+					</div>
 				  </div>
 				</div>
 

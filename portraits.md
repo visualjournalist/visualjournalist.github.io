@@ -128,14 +128,14 @@ excerpt: Selected portraits.
 						<p style="margin-top: 0; font-size: 14px; line-height: 1.4;">{{ site.description }} | <a href="/about/">Read more</a></p>
 					</div>
 
-					<div class="vj__grid__one-third vj__no-mobile" style="margin-right: 0; padding-top: 20px;">
+					<div class="vj__grid__one-third" style="margin-right: 0; padding-top: 20px;">
 					  <div class="voa__grid">
 					  	<div style="vertical-align: bottom;">
 					  		<a href="/sketchbook/">
 						  		<img src="../img/sketchbook.png" style="float: left; margin-right: 10px; width: 33%; max-width: 100px;">
 								<h4 style="font-family: Arial, sans-serif;">Metro sketchbook</h4>
 					  		</a>
-						  	<p style="font-size: 14px; line-height: 1.4;">A year of surreptitiously drawing people on the Red Line.</p>
+						  	<p style="font-size: 14px; font-weight: bold;">A year of surreptitiously drawing people on the Red Line.</p>
 						</div>
 					  </div>
 					</div>
