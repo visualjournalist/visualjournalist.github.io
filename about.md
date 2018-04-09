@@ -18,6 +18,8 @@ exclude_from_nav: true
 		</div><!--
 		--><div class="vj__grid__one-third">
 
+
+
 			<h4 style="font-family: Arial, sans-serif; margin-bottom: 20px; font-weight: bold; text-transform: uppercase; color: #666;">About this site</h4>
 
 			<div style="font-size: 14px; line-height: 1.4; color: #999;">
@@ -34,6 +36,15 @@ exclude_from_nav: true
 
 				<p>Jekyll provides a simple solution for baking out a static site. GitHub Pages allows for a simple and fast way to host the site.</p>
 			</div>
+
+			<div style="border-radius: 5px; margin-top: 20px; padding: 20px 20px 20px 0; background-color: #f1f1f1;">
+				<a href="/portraits/">
+					<img src="../img/portrait-thumbnail.jpg" style="float: left; margin-right: 10px; width: 33%; max-width: 100px;">
+				<h4 style="font-family: Arial, sans-serif;">Portrait gallery</h4>
+				</a>
+				<p style="font-size: 14px; font-weight: bold;">A collection of drawings, prints and paintings of family members and public figures.</p>
+			</div>
+
 		</div>
 	</div>
 </div>

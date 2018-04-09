@@ -135,8 +135,8 @@ excerpt: Selected portraits.
 						  		<img src="../img/sketchbook.png" style="float: left; margin-right: 10px; width: 33%; max-width: 100px;">
 								<h4 style="font-family: Arial, sans-serif;">Metro sketchbook</h4>
 					  		</a>
-						  		<p style="font-size: 14px; line-height: 1.4;">A year of surreptitiously drawing people on the Red Line.</p>
-							</div>
+						  	<p style="font-size: 14px; line-height: 1.4;">A year of surreptitiously drawing people on the Red Line.</p>
+						</div>
 					  </div>
 					</div>
 
