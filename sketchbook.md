@@ -626,7 +626,37 @@ excerpt: Selected pages from a sketchbook of people surreptitiously drawn on Was
 		</div>
 
 
-</div>
+
+
+
+
+
+		</div>
+
+
+		<div class="vj__grid__full" style="margin-top: 0; margin-bottom: 0; padding-bottom: 0; background-color: #F1F1F1;">
+			<div class="vj__grid">
+
+				<div class="vj__grid__two-thirds wide-right vj__rule " style=" padding-top: 20px; padding-bottom: 10px;">
+					<img src="/img/portrait__brian-williamson.jpg" style="float: left; margin-right: 10px; width: 80px;">
+					<p style="margin-top: 0; font-size: 14px; line-height: 1.4;">{{ site.description }} | <a href="/about/">Read more</a></p>
+				</div>
+
+				<div class="vj__grid__one-third vj__no-mobile" style="margin-right: 0; padding-top: 20px;">
+				  <div class="voa__grid">
+				  	<div style="vertical-align: bottom;">
+				  		<a href="/portraits/">
+					  		<img src="../img/portrait-thumbnail.jpg" style="float: left; margin-right: 10px; width: 33%; max-width: 100px;">
+							<h4 style="font-family: Arial, sans-serif;">Portrait gallery</h4>
+				  		</a>
+					  		<p style="font-size: 14px; line-height: 1.4;">A collection of drawings, prints and paintings of people.</p>
+						</div>
+				  </div>
+				</div>
+
+			</div>
+		</div>
+
 
 
 	  </div>
