@@ -2,7 +2,7 @@
 layout: post
 title:  "What happens when the President calls a foreign leader?"
 date:   2017-08-05
-categories: comics
+categories: illustration
 image: 2017-08-05__leaked-transcripts.gif
 thumbnail: 2017-08-05__leaked-transcripts--640x360.jpg
 credit: Brian Williamson | VOA
