@@ -2,7 +2,7 @@
 layout: post
 title:  "Providing World Cup coverage for French- and English-speaking countries across Africa"
 date:   2014-08-18
-categories: interactive video
+categories: interactive
 image: 2014-08-18__world-cup-phones.jpg
 thumbnail: 2014-08-18__world-cup-phones--640x360.jpg
 youtube: NlL-HoWhZpI
