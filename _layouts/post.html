@@ -75,6 +75,7 @@ layout: default
 	<div class="vj__grid vj__related-links">
 		<ul class="">
 		{% if page.link-project %}<li><a href="{{ page.link-project }}">View the project</a></li>{% endif %}
+		{% if page.link-translation %}<li><a href="{{ page.link-translation }}">View the {% if page.link-translation-language %}{{ page.link-translation-language }} {% endif %}translation</a></li>{% endif %}
 		{% if page.link-code %}<li><a href="{{ page.link-code }}">View the code</a></li>{% endif %}
 		{% if page.link-blogpost %}<li><a href="{{ page.link-blogpost }}">Read a blogpost</a></li>{% endif %}
 		{% if page.link-related %}<li><a href="{{ page.link-related }}">Read a related post</a></li>{% endif %}
