@@ -12,12 +12,12 @@ description_link: > #
   I am a graphic artist, interactive developer and designer for Voice of America. I design, illustrate, animate and write code to tell stories. VOA provides objective news and information in 45 languages to over 235 million people around the world every week. For 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
 
 categories_list:
-  - name: comics
-    totalStories: 3
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
   - name: interactive
     totalStories: 3
     description: BRIAN WILLIAMSON started as a newspaper page designer at the St. Louis Post-Dispatch, designing everything from the front page to business and feature pages. At some point he transitioned to designing interactive content for the newspaper. He is comfortable working with HTML, CSS, JavaScript, Node, JSON and creating data visualizations with D3 and Leaflet.
+  - name: comics
+    totalStories: 3
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
   - name: design
     totalStories: 4
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

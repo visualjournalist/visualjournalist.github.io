@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Africa Rizing: Rising sea levels threaten Africa's coasts"
+title:  "Rising sea levels threaten Africa's coasts"
 date:   2015-11-24
 categories: video
 image: 2015-11-24__rising-sea-levels-in-africa.jpg
