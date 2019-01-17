@@ -13,13 +13,13 @@ description_link: > #
 
 categories_list:
   - name: interactive
-    totalStories: 3
+    totalStories: 4
     description: BRIAN WILLIAMSON started as a newspaper page designer at the St. Louis Post-Dispatch, designing everything from the front page to business and feature pages. At some point he transitioned to designing interactive content for the newspaper. He is comfortable working with HTML, CSS, JavaScript, Node, JSON and creating data visualizations with D3 and Leaflet.
   - name: comics
     totalStories: 3
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
   - name: design
-    totalStories: 4
+    totalStories: 3
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
   - name: illustration
     totalStories: 4
