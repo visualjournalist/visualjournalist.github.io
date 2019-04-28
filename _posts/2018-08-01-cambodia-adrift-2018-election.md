@@ -6,7 +6,7 @@ categories: design
 image: 2018-08-01__cambodia-adrift.jpg
 alt: Hun Sen casts a ballot surrounded by people and cameras.
 thumbnail: 2018-08-01__cambodia-adrift--640x360.jpg
-credit: Reuters
+credit: VOA News
 youtube: L5j7Pr3mLRM
 link-project:  "https://projects.voanews.com/cambodia-election-2018/"
 ---
