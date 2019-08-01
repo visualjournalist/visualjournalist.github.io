@@ -1,6 +1,32 @@
 # Welcome to Jekyll!
 # Site settings
 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter_username: "@BrianWmson"
+github_username: "bbgvisualjournalist"
+
+development_mode: false
+development_warning: This site is currently under active development. You may encounter lorem ipsum.
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+sass:
+  style: compressed
+
+
+permalink: /:categories/:title
+
+
+
 title: Visual Journalist | Brian Williamson’s design, graphics, illustration and video portfolio site
 description: > # this means to ignore newlines until "baseurl:"
   I am a graphic artist, interactive developer and designer for Voice of America. I design, illustrate, animate and write code to tell stories. VOA provides objective news and information in 45 languages to over 235 million people around the world every week. For 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
@@ -28,26 +54,3 @@ categories_list:
     totalStories: 4
     description: BRIAN WILLIAMSON creates short videos to tell stories, help introduce new tools, promote new projects and provide project retrospectives. He can shoots and edits short interviews, write a script, storyboard it, and produce the final video.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-twitter_username: "@BrianWmson"
-github_username: "bbgvisualjournalist"
-
-development_mode: false
-development_warning: This site is currently under active development. You may encounter lorem ipsum.
-
-# Build settings
-markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-  - jekyll-sitemap
-exclude:
-  - Gemfile
-  - Gemfile.lock
-sass:
-  style: compressed
-
-
-permalink: /:categories/:title

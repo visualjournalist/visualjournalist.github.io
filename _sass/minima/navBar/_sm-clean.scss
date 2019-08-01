@@ -182,8 +182,9 @@
     border-radius: 0 !important;
   }
   .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active, .sm-clean a.highlighted {
-    color: orange;//$color__vj-blue-light;
-    text-decoration: underline;
+    background-color: orange;
+    color: #FFF;// orange;
+    //text-decoration: underline;
   }
   .sm-clean a.current {
     color: $color__vj-blue-light;
