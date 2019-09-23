@@ -6,7 +6,7 @@ categories: video
 image: 2019-08-07__shoura__poster__w1280_h720.jpg
 thumbnail: 2019-08-07__shoura__poster__w640_h360.jpg
 youtube: I4P_c2xyx24
-credit: Brian Williamson | VOA
+credit: VOA
 link-project:  "https://www.voanews.com/shoura"
 ---
 
