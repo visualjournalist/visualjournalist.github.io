@@ -14,7 +14,7 @@ link-project:  "https://www.voanews.com/shoura"
 
 Shoura is a town in northern Iraq. Now that the Islamic State has been forced out of the town, the community is trying to figure out how to have pro-ISIS families coexist peacefully side-by-side with the victims of ISIS brutality.
 
-VOA's Middle East correspondent Heather Murdock led a small team on the ground, interviewing, filming and  returning to the town multiple times over the course of a year. Ultimately she focused on a handful of interview subjects and wove their stories of sometimes explosive tensions into a 25-minute documentary. Because many of the stories are highly personal and weren't photographed or recorde, we decided to combine audio from their interviews with short animations to help illustrate the stories.
+VOA's Middle East correspondent Heather Murdock led a small team on the ground, interviewing, filming and  returning to the town multiple times over the course of a year. Ultimately she focused on a handful of interview subjects and wove their stories of sometimes explosive tensions into a 25-minute documentary. Because many of the stories are highly personal and weren't photographed or recorded, we decided to combine audio from their interviews with short animations to help illustrate the stories.
 
 
 <div class="vj__grid__full">
