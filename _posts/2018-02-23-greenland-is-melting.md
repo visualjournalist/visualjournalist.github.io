@@ -20,7 +20,7 @@ There are scientists using ancient ice core samples to explain how past changes 
 
 I created five original cover illustrations using collaged textures, and incorporated this style into a video and static graphics explaining ice core drilling. I designed and coded the overall project.
 <div style="max-width: 640px; margin: 0 auto;">
-	<div class='embed-container' style=""><iframe src="http://www.youtube.com/embed/sGticI6H-AQ" frameborder="0" allowfullscreen></iframe></div>
+	<div class='embed-container' style=""><iframe src="https://www.youtube.com/embed/sGticI6H-AQ" frameborder="0" allowfullscreen></iframe></div>
 	<div class="vj__grid">
 		<p class="vj__credit">VOA</p>
 	</div>
