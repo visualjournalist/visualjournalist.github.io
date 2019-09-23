@@ -2,7 +2,6 @@
 layout: post
 title:  "Using responsive comics to explain internet circumvention techniques"
 date:   2014-12-22 07:10:18 -0500
-categories: comics
 image: circumvention.jpg
 thumbnail: circumvention--640x360.jpg
 credit: Brian Williamson | VOA

@@ -2,7 +2,6 @@
 layout: post
 title:  "Comparing 227 years of presidential demographics"
 date:   2016-11-08
-categories: interactive
 image: compare-presidents.jpg
 thumbnail: compare-presidents--640x360.jpg
 alt: Screenshot of the project showing a grid of presidential portraits.

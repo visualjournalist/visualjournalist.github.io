@@ -2,7 +2,6 @@
 layout: post
 title:  "Explore Pujols' road to 400 home runs"
 date:   2010-08-26
-categories: interactive
 image: 2010-08-26__pujols-homeruns.jpg
 vertical: true
 filename: 2010-08-26__pujols-homeruns

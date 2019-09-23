@@ -2,7 +2,6 @@
 layout: post
 title:  "Explore the history of federal terrorism prosecutions since 9/11"
 date:   2017-11-16
-categories: interactive
 image: 2017-11-16__imams-choice-graphic.jpg
 thumbnail: 2017-11-16__imams-choice-graphic--640x360.jpg
 alt: A screenshot of a data visualization showing federal terrorism prosecutions as a series of colored squares.

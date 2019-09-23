@@ -2,7 +2,6 @@
 layout: post
 title:  "Poacher’s regret: Inside the bloody hunt for elephants"
 date:   2018-08-24
-categories: comics
 image: 2018-08-24__poachers-regret.jpg
 thumbnail: 2018-08-24__poachers-regret--640x360.jpg
 alt: A series of comic book panels. A charcoal portrait of a poacher inset inside of a drawing of an elephant.

@@ -2,7 +2,6 @@
 layout: post
 title:  "The cave man’s diet to eating right and being healthy"
 date:   2006-03-06
-categories: comics
 image: 2006-03-06__caveman-diet.jpg
 thumbnail: 2006-03-06__caveman-diet--640x360.jpg
 credit: Brian Williamson | St. Louis Post-Dispatch

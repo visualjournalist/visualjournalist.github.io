@@ -2,7 +2,6 @@
 layout: post
 title:  "More Muslims running (and winning) in US elections"
 date:   2018-11-10
-categories: interactive
 image: 2018-11-10__more-muslims-running.jpg
 thumbnail: 2018-11-10__more-muslims-running--640x360.jpg
 link-project:  "https://projects.voanews.com/muslim-candidates/"

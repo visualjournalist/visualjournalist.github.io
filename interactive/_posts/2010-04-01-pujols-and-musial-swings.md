@@ -2,7 +2,6 @@
 layout: post
 title:  "Compare Albert Pujols and Stan Musial's swings"
 date:   2010-04-01
-categories: interactive
 image: 2010-04-01__pujols-and-musial-swings.jpg
 filename: 2010-04-01__pujols-and-musial-swings
 thumbnail: 2010-04-01__pujols-and-musial-swings--640x360.jpg

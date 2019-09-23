@@ -2,7 +2,6 @@
 layout: post
 title:  "Explore the St. Louis foreclosure crisis"
 date:   2009-02-01
-categories: interactive
 image: 2009-02-01__foreclosure-map.jpg
 filename: 2009-02-01__foreclosure-map
 alt: Screenshot of an interactive map showing the rise of foreclosure rates across the St. Louis region from 2005 to 2009. The map highlights the third quarter of 2008 and shows the highest foreclosure rates were primarily in North St. Louis ZIP codes and across the Mississippi River in East St. Louis ZIP codes.

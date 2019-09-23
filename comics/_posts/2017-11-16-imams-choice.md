@@ -2,7 +2,6 @@
 layout: post
 title:  "How a cleric’s advice changed the course of an FBI sting"
 date:   2017-11-16
-categories: comics
 image: 2017-11-16__imams-choice.jpg
 thumbnail: 2017-11-16__imams-choice--640x360.jpg
 alt: A series of comic book panels.

@@ -2,7 +2,6 @@
 layout: post
 title:  After ISIS, what becomes of the fighters’ families?
 date:   2018-03-06
-categories: comics
 image: 2018-03-06__wedded-to-isis-2.jpg
 thumbnail: 2018-03-06__wedded-to-isis--640x360.jpg
 alt: Illustration of the profile of a muslim woman against the destroyed Raqqa skyline.
