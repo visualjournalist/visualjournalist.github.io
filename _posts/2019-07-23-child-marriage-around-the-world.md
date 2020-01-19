@@ -24,7 +24,7 @@ url="KfexVxJVGbc"
 
 ### RESPONSIBILITIES ###
 
-The scope and scale of this project was definitely larger than previous projects I've worked on. Coordinating reporting, maintaining consistent standards and ensuring that progress was being made across within the individual projects was a definite challenge. To help with that, I created a series of spreadsheets, text documents and Trello boards for tracking our progress.
+The scope and scale of this project was definitely larger than previous projects I've worked on. Coordinating reporting, maintaining consistent standards and ensuring that progress was being made across within the individual projects were a challenge. To help with that, I created a series of spreadsheets, text documents and Trello boards for tracking our progress.
 
 After the initial video reports were completed, we sent freelance photographers back to follow up on some of the stories. I was responsible for photo editing hundreds of photos. Because I was also in charge of designing and developing the final project, I was able to incorporate slightly different photo edits for mobile (vertical) and larger desktop (horizontal) browsers.
 

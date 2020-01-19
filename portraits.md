@@ -26,9 +26,25 @@ excerpt: Selected portraits.
 
 <div class="vj__grid__full " style="margin-top: 30px;">
 
+
+			<div class="vj__grid__full">
+				<div class="vj__grid__one-third">
+					<img src="../img/portraits/baseball__fernando-valenzuela.jpg" title="Ink portrait of Fernando Valenzuela. 2019">
+				</div><!--
+				--><div class="vj__grid__one-third">
+					<img src="../img/portraits/baseball__george-brett.jpg" title="Ink portrait of George Brett. 2019">
+				</div><!--
+				--><div class="vj__grid__one-third">
+					<img src="../img/portraits/baseball__dan-quisenberry.jpg" title="Ink portrait of Dan Quisenberry. 2019">
+				</div><!--
+				-->
+			</div>
+
+
 			<div class="vj__grid__full">
 				<img src="../img/portraits/painting__girl-renaissance-fair.jpg" title="Portrait of daughter at the Renaissance Fair. Acrylic and colored pencil on board. March 2018" />
 			</div>
+
 
 			<div class="vj__grid__full">
 				<div class="vj__grid__one-half">
@@ -38,6 +54,7 @@ excerpt: Selected portraits.
 					<img src="../img/portraits/painting__girl-in-hat--wide.jpg" title="Portrait of daughter in pink hat, at the US Botanic Garden. Acrylic and colored pencil on board. 2016">
 				</div>
 			</div>
+
 
 			<div class="vj__grid__full">
 				<div class="vj__grid__one-third">
@@ -59,13 +76,10 @@ excerpt: Selected portraits.
 			</div>
 
 
-
-
-
-
 			<div class="vj__grid__full">
 					<img src="../img/portraits/sketch__jade.jpg" title="Overlapping portrait of my wife in Mexico. Pencil. 2004">
 			</div>
+
 
 			<div class="vj__grid__full">
 				<div class="vj__grid__one-half">
@@ -76,6 +90,7 @@ excerpt: Selected portraits.
 				</div>
 			</div>
 
+
 			<div class="vj__grid__full">
 				<div class="vj__grid__two-thirds">
 					<img src="../img/portraits/16_lincoln.jpg" title="Portrait of Abraham Lincoln. Linoleum block print. 2011">
@@ -84,6 +99,7 @@ excerpt: Selected portraits.
 					<img src="../img/portraits/skateboard__lincoln--large.jpg" title="Portrait of Abraham Lincoln. Acrylic on skateboard deck. 2012">
 				</div>
 			</div>
+
 
 			<div class="vj__grid__full">
 				<div class="vj__grid__one-third">
@@ -97,6 +113,7 @@ excerpt: Selected portraits.
 				</div>
 			</div>
 
+
 			<div class="vj__grid__full">
 				<div class="vj__grid__one-third">
 					<img src="../img/portraits/president__cleveland2.jpg" title="Portrait of President Grover Cleveland. Pencil. 2011">
@@ -109,9 +126,11 @@ excerpt: Selected portraits.
 				</div>
 			</div>
 
+
 			<div class="vj__grid__full">
-				<img src="../img/portraits/pencil__self-portrait.jpg" title="Self portrait. Pencil. 2013">
+				<img src="../img/portraits/president__45.jpg" title="Mixed-media portait. December 18, 2019" />
 			</div>
+
 
 			<div class="vj__grid__full" style="margin-bottom: 0;">
 				<img src="../img/portraits/sketches.jpg" title="Sketchbook page of miscellaneous portraits." style="display: block;">

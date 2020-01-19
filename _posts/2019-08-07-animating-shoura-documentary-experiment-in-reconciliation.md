@@ -14,7 +14,7 @@ link-project:  "https://www.voanews.com/shoura"
 
 Shoura is a town in northern Iraq. Now that the Islamic State has been forced out of the town, the community is trying to figure out how to have pro-ISIS families coexist peacefully side-by-side with the victims of ISIS brutality.
 
-VOA's Middle East correspondent Heather Murdock led a small team on the ground, interviewing, filming and  returning to the town multiple times over the course of a year. Ultimately she focused on a handful of interview subjects and wove their stories of sometimes explosive tensions into a 25-minute documentary. Because many of the stories are highly personal and weren't photographed or recorded, we decided to combine audio from their interviews with short animations to help illustrate the stories.
+VOA's Middle East correspondent Heather Murdock led a small team on the ground, interviewing, filming and  returning to the town multiple times over the course of a year. She focused on a handful of interview subjects and wove their stories of sometimes explosive tensions into a 25-minute documentary. Because many of the stories are highly personal and weren't visually documented at the time, we decided to combine audio from their interviews with short animations to help illustrate the stories.
 
 
 <div class="vj__grid__full">
@@ -33,7 +33,7 @@ VOA's Middle East correspondent Heather Murdock led a small team on the ground, 
 
 ### RESPONSIBILITIES
 
-Based on the script, I created storyboards and rough animatics. I explored stylistic options and decided on a technique interspersing longer rotoscoped segments with shorter freehand and rotoscoped loops. The animations were drawn in Photoshop, and then composited and synchronized with the audio track in After Effects. Ultimately I animated the intro, five animated vignettes as well as five portraits introducing recurring people. While waiting for the final approval on the documentary, I created a landing page and poster for the documentary.
+Based on the script, I created storyboards and rough animatics. I explored stylistic options and decided on a technique interspersing longer rotoscoped segments with shorter freehand and rotoscoped loops. The animations were drawn in Photoshop, and then composited and synchronized with the audio track in After Effects. Ultimately I animated the intro, five vignettes, as well as five portraits introducing recurring people. While waiting for the final approval on the documentary, I created a landing page and poster for the documentary.
 
 {% include video.html
 
