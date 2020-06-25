@@ -14,3 +14,5 @@ My last site was built as a [Node Express web application](https://github.com/vi
 My current approach is to host [the site](http://visualjournali.st) using Jekyll and GitHub pages. 
 
 Jekyll provides a simple solution for baking out a static site. GitHub Pages allows for a simple and fast way to host the site.
+
+.
