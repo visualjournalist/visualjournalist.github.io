@@ -25,8 +25,15 @@ excerpt: Selected portraits.
 </div>
 
 <div class="vj__grid__full " style="margin-top: 30px;">
-
-
+			<div class="vj__grid__full">
+				<div class="vj__grid__two-thirds">
+					<img src="../img/portraits/suffragist__susan-b-anthony.jpg" title="Digital portrait of suffragist Susan B. Anthony. 2020">
+				</div><!--
+				--><div class="vj__grid__one-third">
+					<img src="../img/portraits/suffragist__mabel-lee.jpg" title="Digital portrait of suffragist Mabel Ping-Hua Lee. 2020">
+					<img src="../img/portraits/suffragist__elizabeth-stanton.jpg" title="Digital portrait of suffragist Elizabeth Stanton. 2020">
+				</div>
+			</div>
 			<div class="vj__grid__full">
 				<div class="vj__grid__one-third">
 					<img src="../img/portraits/baseball__fernando-valenzuela.jpg" title="Ink portrait of Fernando Valenzuela. 2019">
@@ -39,13 +46,9 @@ excerpt: Selected portraits.
 				</div><!--
 				-->
 			</div>
-
-
 			<div class="vj__grid__full">
 				<img src="../img/portraits/painting__girl-renaissance-fair.jpg" title="Portrait of daughter at the Renaissance Fair. Acrylic and colored pencil on board. March 2018" />
 			</div>
-
-
 			<div class="vj__grid__full">
 				<div class="vj__grid__one-half">
 					<img src="../img/portraits/painting__girl.jpg" title="Portrait of daughter. Oil on illustration board. Fathers' Day 2012">
