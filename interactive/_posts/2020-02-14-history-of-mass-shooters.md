@@ -41,7 +41,7 @@ I created the 171 simplified silhouette portraits, and connected them to the dat
 
 I also created a series of static and interactive graphics and maps using D3, Leaflet and ai2html. 
 
-While deliberately avoiding naming the shooters or drawing facial features on their silhouettes, I wanted to recognize the names of the people lost in the shooting. I researched the names of the more than 1,200 people killed in mass shootings since 1966. 
+While deliberately avoiding naming the shooters or drawing facial features on their silhouettes, I wanted to recognize the names of the people lost in the shootings. I researched the names of the more than 1,200 people killed in mass shootings since 1966. 
 
 
 
