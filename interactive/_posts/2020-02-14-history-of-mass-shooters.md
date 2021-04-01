@@ -16,7 +16,7 @@ I partnered with two VOA reporters to create an outline for the project.
 
 The main story provides an overview of mass shooters and an explanation of how the data could be used by policymakers to reduce future casualties. 
 
-Because the researchers found commonalities based on the location of the shootings, we set up individual pages for schools, workplaces, houses of worship and restaurants and bars. These individual location pages were also designed to be used in the event of future mass shootings, and allow us to immediately provide some historical context.
+Because the researchers found commonalities based on the location of the shootings, we set up individual pages for [schools](https://projects.voanews.com/mass-shootings/english/locations/school.html), [workplaces](https://projects.voanews.com/mass-shootings/english/locations/workplace.html), [houses of worship](https://projects.voanews.com/mass-shootings/english/locations/worship.html) and [restaurants and bars](https://projects.voanews.com/mass-shootings/english/locations/restaurant.html). These individual location pages were also designed to be used in the event of future mass shootings, and allow us to immediately provide some historical context.
 
 One of the challenges we faced, was how to present a database about mass shooters without contributing to the notoriety that many of the shooters have sought. 
 
