@@ -59,7 +59,7 @@ layout: default
 					  {% endif %}
 						<h2 class="balance-text vj__featured-post__title">{{ site.categories[currentCat][0].title }}</h2>
 					</a>
-					<p style="">{{ site.categories[currentCat][0].excerpt | strip_html }}</p>
+					<p>{% if site.categories[currentCat][0].summary %}{{ site.categories[currentCat][0].summary }}{% else %}{{ site.categories[currentCat][0].excerpt | strip_html }}{% endif %}</p>
 				</div>
 			</div>
 		</div>
