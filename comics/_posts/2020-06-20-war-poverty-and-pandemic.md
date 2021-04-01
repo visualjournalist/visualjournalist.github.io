@@ -21,7 +21,7 @@ Omar is among almost 80 million people forcibly displaced from their homes world
 
 On February 27, Turkey announced that it would no longer prevent refugees from crossing its border into Europe. The result was a surge of refugees at the border. Greece responded with a hardline crackdown, trying to repel the refugees on land and sea. Tensions in the region were already high, as the world focused on COVID-19.
 
-Heather interviewed Omar in March, at an Istanbul bus station. His family had been sent back from Greece as concerns about the pandemic were flaring up across the region.
+VOA refugee correspondent [Heather Murdock](https://twitter.com/heather_murdock) interviewed Omar in March, at an Istanbul bus station. His family had been sent back from Greece as concerns about the pandemic were flaring up across the region.
 
 Much of Omar's journey happened at night, far from the cameras and coverage of media and international observers. We used comics journalism to tell his personal story as a way of visualizing what he experienced. 
 
