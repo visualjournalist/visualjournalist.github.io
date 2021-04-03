@@ -29,28 +29,28 @@ permalink: /:categories/:title
 
 title: Visual Journalist | Brian Williamson’s design, graphics, illustration and video portfolio site
 description: > # this means to ignore newlines until "baseurl:"
-  I am a graphic artist, interactive developer and designer for Voice of America. I design, illustrate, animate and write code to tell stories. VOA provides objective news and information in 45 languages to over 235 million people around the world every week. For over 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
+  I am a graphic artist, interactive developer and designer for Voice of America. I design, illustrate, animate and write code to tell stories. VOA provides objective news and information in 45 languages to over 280 million people around the world every week. For over 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
 title_short: Visual Journalist | Brian Williamson’s portfolio | 
 description_short: > # this means to ignore newlines until "baseurl:"
   Brian Williamson is a graphic artist, interactive developer and designer for VOA. He designs, illustrates, animates and writes code to tell stories.
 
 description_link: > # 
-  I am a graphic artist, interactive developer and designer for Voice of America. I design, illustrate, animate and write code to tell stories. VOA provides objective news and information in 45 languages to over 235 million people around the world every week. For over 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
+  I am a graphic artist, interactive developer and designer for Voice of America. I design, illustrate, animate and write code to tell stories. VOA provides objective news and information in 45 languages to over 280 million people around the world every week. For over 75 years, VOA has broadcast content that many people cannot get locally: objective news and information about the US, their region and the world.
 
 categories_list:
-  - name: interactive
-    totalStories: 4
-    description: BRIAN WILLIAMSON started as a newspaper page designer at the St. Louis Post-Dispatch, designing everything from the front page to business and feature pages. At some point he transitioned to designing interactive content for the newspaper. He is comfortable working with HTML, CSS, JavaScript, Node, JSON and creating data visualizations with D3 and Leaflet.
   - name: comics
     totalStories: 3
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  - name: video
+    totalStories: 4
+    description: BRIAN WILLIAMSON creates short videos to tell stories, help introduce new tools, promote new projects and provide project retrospectives. He can shoots and edits short interviews, write a script, storyboard it, and produce the final video.
+  - name: interactive
+    totalStories: 4
+    description: BRIAN WILLIAMSON started as a newspaper page designer at the St. Louis Post-Dispatch, designing everything from the front page to business and feature pages. At some point he transitioned to designing interactive content for the newspaper. He is comfortable working with HTML, CSS, JavaScript, Node, JSON and creating data visualizations with D3 and Leaflet.
   - name: design
     totalStories: 3
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
   - name: illustration
     totalStories: 4
     description: BRIAN WILLIAMSON creates conceptual illustrations, portraits, infographics and comics. He's illustrated everything from abstract stories on the economy to practical how-to stories on exercise. His illustrations have been featured in newspapers around the country. He is equally comfortable working with dirty, real-world paint and the virtual equivalent. 
-  - name: video
-    totalStories: 4
-    description: BRIAN WILLIAMSON creates short videos to tell stories, help introduce new tools, promote new projects and provide project retrospectives. He can shoots and edits short interviews, write a script, storyboard it, and produce the final video.
 

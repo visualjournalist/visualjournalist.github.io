@@ -28,11 +28,11 @@ exclude_from_nav: true
 
 				<p>Each iteration has been a way to experiment with new technologies.</p>
 
-				<p>My first site was an elaborate <a href='http://designasprocess.com/view/'>Flash-based virtual Viewmaster</a>. Since then I've created table-based HTML sites, abandonded tables for CSS, and  hosted a couple of WordPress sites.</p>
+				<p>My first site was a Flash-based virtual <a href="https://www.google.com/search?q=view+master+gif&tbm=isch&rlz=1C5CHFA_enUS877US877&hl=en&sa=X&ved=2ahUKEwj9xZCD-eHvAhV1ieAKHYb0BsQQBXoECAEQOA&biw=1262&bih=914#imgrc=cpIwxTJEazwaLM">View Master</a>. Since then I've created table-based HTML sites, abandonded tables for CSS, and  hosted a couple of WordPress sites.</p>
 
 				<p>My last site was built as a <a href="https://github.com/visualjournalist/portfolio-sheet">Node Express web application</a> using a <a href='https://docs.google.com/spreadsheets/d/1qbDmkc5CQ0I14NWclfB0W3AA2EbLObX3ZKXJ8dVc-3o/pubhtml'>Google Spreadsheet</a> to supply the data.</p>
 
-				<p>My current approach is to host <a href="http://visualjournali.st">the site</a> using Jekyll and <a href="https://github.com/visualjournalist/visualjournalist.github.io">GitHub pages</a>.</p>
+				<p>My current approach is to host <a href="https://visualjournali.st">the site</a> using Jekyll and <a href="https://github.com/visualjournalist/visualjournalist.github.io">GitHub pages</a>.</p>
 
 				<p>Jekyll provides a simple solution for baking out a static site. GitHub Pages allows for a simple and fast way to host the site.</p>
 			</div>

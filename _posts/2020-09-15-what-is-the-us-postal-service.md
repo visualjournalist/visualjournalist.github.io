@@ -40,4 +40,4 @@ Ensuring that today, for 55 cents, anyone can send a first-class letter to anywh
 
 ### RESPONSIBILITIES
 
-I helped research and write a short script. I created a storyboard and a rough animatic. I explored stylistic options and decided on a mixture of vector-based and collaged illustrations. The assets were drawn in Illustrator, and then composited and synchronized with the audio track in After Effects. The animation was published on Facebook and Twiiter.
+I helped research and write a short script. I created a storyboard and a rough animatic. I explored stylistic options and decided on a mixture of vector-based and collaged illustrations. The assets were drawn in Illustrator, and then composited and synchronized with the audio track in After Effects. The animation was published on Facebook and Twitter.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Uyghur Man’s Journey from a Chinese Prison to Turkey"
+title:  "A Uyghur man’s journey from a Chinese prison to Turkey"
 summary: "Turkey has long been considered a safe haven for Uyghurs. But as Turkish-Chinese relations grow stronger, many are afraid the protection they enjoy in Turkey could wane."
 date:   2021-03-01
 image: 2021-03-01__comic__no-place-safe__w1280.jpg
